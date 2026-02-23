@@ -3,34 +3,56 @@ export const getSobData = () => {
   {
     "name": "Alby",
     "url": "https://github.com/getAlby",
-    "image_url": "https://github.com/alby.png",
+    "image_url": "https://avatars.githubusercontent.com/u/84262849",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Alby core by code refactoring, performance optimization and benchmarking. \n\nAlby is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "Alby brings Bitcoin to the web with a browser extension for Lightning payments and Nostr.",
+    "category": "Lightning",
     "topics": [
-      "Bitcoin",
-      "Node"
+      "Lightning Network",
+      "Browser Extension",
+      "WebLN"
     ],
     "technologies": [
-      "C++",
-      "Rust",
-      "Python",
+      "JavaScript",
+      "TypeScript",
       "Go"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": []
-      },
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
+        "num_projects": 4,
         "projects": [
           {
             "name": "Adithya Vardhan",
             "project": "Fix frontend-related issues and improve the overall design",
-            "organization": "Alby"
+            "organization": "Alby",
+            "mentor": "Michael Bumann",
+            "university": "Birla Institute of Technology and Science Pilani, Pilani Campus",
+            "country": "India"
+          },
+          {
+            "name": "Dhananjay Purohit",
+            "project": "Content distribution proxy implementing the LSATs spec",
+            "organization": "Alby",
+            "mentor": "Michael Bumann, Kwinten De Backer",
+            "university": "Institute of Engineering and Technology, Devi Ahilya Vishwavidyalaya, Indore (M.P.)",
+            "country": "India"
+          },
+          {
+            "name": "Pavan Joshi",
+            "project": "Make payment transactions smart with structured metadata, WebLN Support",
+            "organization": "Alby",
+            "mentor": "Michael Bumann",
+            "university": "Government College of Engineering, Yavatmal",
+            "country": "India"
+          },
+          {
+            "name": "Saranya Satheesh",
+            "project": "Rethink Payment Transaction Lists | Design, A wallet that teaches bitcoin as you use them | Design, Bitcoin and Friends - Secure chat like interface for the interaction between wallets | Design",
+            "organization": "Alby",
+            "mentor": "Michael Bumann",
+            "university": "Indian Institute of Technology",
+            "country": "India"
           }
         ]
       },
@@ -41,23 +63,40 @@ export const getSobData = () => {
           {
             "name": "Ayush Varshney",
             "project": "UI design for the Alby browser extension and services",
-            "organization": "Alby"
+            "organization": "Alby",
+            "mentor": "Michael Bumann, Roland Bewick",
+            "university": "Indian Institute of Technology Roorkee",
+            "country": "India"
           },
           {
             "name": "Pavan Joshi",
-            "project": "Improvements to Alby",
-            "organization": "Alby"
+            "project": "Develop tools and standards to attach payment metadata to lightning payments",
+            "organization": "Alby",
+            "mentor": "Michael Bumann, Roland Bewick",
+            "university": "Government College Of Engineering,Yavatmal",
+            "country": "India"
           }
         ]
       },
       "2025": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
+        "num_projects": 2,
         "projects": [
           {
-            "name": "Krrish Sehgal",
-            "project": "Contributions to Alby",
-            "organization": "Alby"
+            "name": "Oluwadunsin Abisuwa",
+            "project": "Enhancing Alby's Smaller Apps & Tools: Developer",
+            "organization": "Alby",
+            "mentor": "Jakub, Pavan",
+            "university": "Federal University of Technology, Akure, Nigeria, (FUTA)",
+            "country": "Nigeria"
+          },
+          {
+            "name": "Shubham Kumar",
+            "project": "Alby Apps: Improve some of the less known, smaller Alby apps & tools",
+            "organization": "Alby",
+            "mentor": "Jakub, Pavan",
+            "university": "National Institute of Technology Tiruchirappalli",
+            "country": "India"
           }
         ]
       }
@@ -66,110 +105,94 @@ export const getSobData = () => {
   {
     "name": "Angor",
     "url": "https://github.com/block-core/angor",
-    "image_url": "https://github.com/angor.png",
+    "image_url": "https://avatars.githubusercontent.com/u/147abortn",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Angor core by code refactoring, performance optimization and benchmarking. \n\nAngor is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A decentralized crowdfunding protocol built on Bitcoin.",
+    "category": "Crowdfunding",
     "topics": [
       "Bitcoin",
-      "Node",
-      "Design"
+      "Crowdfunding",
+      "P2P"
     ],
     "technologies": [
-      "Node.js",
-      "Rust",
+      "C#",
+      ".NET",
       "TypeScript"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": []
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": [
-          {
-            "name": "Aashutosh Sapkota",
-            "project": "Content creation for Angor",
-            "organization": "Angor"
-          },
-          {
-            "name": "Ogenna Daniel",
-            "project": "Product design for Angor",
-            "organization": "Angor"
-          }
-        ]
-      },
       "2025": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
+        "num_projects": 2,
+        "projects": [
+          {
+            "name": "Ritankar Saha",
+            "project": "Liquid Network Integration for Angor Wallet",
+            "organization": "Angor",
+            "mentor": "Dan Gershony, V",
+            "university": "Indian Institute of Information Technology, Jabalpur",
+            "country": "India"
+          },
+          {
+            "name": "Yash Gussian",
+            "project": "Enhance UI/UX of the Angor decentralized P2P Funding Protocol",
+            "organization": "Angor",
+            "mentor": "Dan Gershony, V",
+            "university": "National Institute of Technology, Kurukshetra – India",
+            "country": "India"
+          }
+        ]
       }
     }
   },
   {
     "name": "Ark",
-    "url": "https://github.com/ArkEcosystem",
-    "image_url": "https://github.com/ark.png",
+    "url": "https://github.com/ark-network",
+    "image_url": "https://avatars.githubusercontent.com/u/147059531",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Ark core by code refactoring, performance optimization and benchmarking. \n\nArk is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "Ark is a layer-two protocol for making cheap, anonymous, off-chain Bitcoin transactions.",
+    "category": "Layer 2",
     "topics": [
-      "Lightning Network",
-      "Bitcoin"
+      "Bitcoin",
+      "Layer 2",
+      "Privacy"
     ],
     "technologies": [
-      "Python",
-      "Shell",
-      "JavaScript"
+      "Go",
+      "Rust"
     ],
     "years": {
-      "2021": {
+      "2025": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 1,
         "projects": [
           {
-            "name": "Abhishek Anantharam",
-            "project": "Build an interactive interface for JoinMarket to enable end-users make Coinjoin transactions easily, using Flask and react.js.",
-            "organization": "JoinMarket",
-            "link": "https://github.com/shobhitaa/Joinmarket-SOB/commits/main"
+            "name": "Dikshant Dikshant",
+            "project": "Ark Protocol & Bitcoin Script",
+            "organization": "Ark",
+            "mentor": "Marco Argentieri",
+            "university": "International Institute of Information Technology - Hyderabad",
+            "country": "India"
           }
         ]
-      },
-      "2023": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
       }
     }
   },
   {
     "name": "BDK",
     "url": "https://github.com/bitcoindevkit",
-    "image_url": "https://github.com/bdk.png",
+    "image_url": "https://avatars.githubusercontent.com/u/72170781",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to BDK core by code refactoring, performance optimization and benchmarking. \n\nBDK is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "Bitcoin Dev Kit - a modern, lightweight, descriptor-based wallet library.",
+    "category": "Wallet",
     "topics": [
       "Wallets",
-      "Cryptography"
+      "Bitcoin",
+      "Descriptors"
     ],
     "technologies": [
-      "TypeScript",
-      "Go",
-      "Shell"
+      "Rust",
+      "Swift",
+      "Kotlin"
     ],
     "years": {
       "2021": {
@@ -178,73 +201,160 @@ export const getSobData = () => {
         "projects": [
           {
             "name": "Sandipan Dey",
-            "project": "Add support for Bech32 address and Taproot in Bitcoin Dev Kit",
-            "organization": "BDK"
+            "project": "Add support for Bech32 address and Taproot in Bitcoin Dev Kit.",
+            "organization": "BDK",
+            "mentor": "Steve Myers",
+            "university": "Academy of Technology - West Bengal",
+            "country": "India"
           }
         ]
       },
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
+        "num_projects": 8,
         "projects": [
           {
-            "name": "Peter Felix",
-            "project": "Contributions to BDK",
-            "organization": "BDK"
+            "name": "César Alvarez Vallero",
+            "project": "Improving Coinselection in BDK, Real-Time Stream of Blocks API, lnprototest in LDK, Foundations of Open Source Development",
+            "organization": "BDK",
+            "mentor": "Daniela Brozzoni",
+            "university": "Universidad Nacional de Córdoba",
+            "country": "Argentina"
+          },
+          {
+            "name": "Dhruv Baliyan",
+            "project": "Add api to generate child keys from master key",
+            "organization": "BDK",
+            "mentor": "notmandatory, artfuldev",
+            "university": "AKTU",
+            "country": "India"
+          },
+          {
+            "name": "Kunal Jain",
+            "project": "Price of Anarchy in Selfish Routing on the Lightning Network, Implement PrunedBlockchain backend: RPC on pruned node",
+            "organization": "BDK",
+            "mentor": "Alexos Felini",
+            "university": "International Institute of Information Technology, Hyderabad",
+            "country": "India"
+          },
+          {
+            "name": "Leonardo Souza",
+            "project": "Real-Time Stream of Blocks API, Mempool.space integration in BDK",
+            "organization": "BDK",
+            "mentor": "Lloyd Fournier",
+            "university": "University of Campinas - UNICAMP",
+            "country": "Brazil"
+          },
+          {
+            "name": "Pedro Felix",
+            "project": "BDK descriptor improvements: Add a generic descriptor trait, Implement PrunedBlockchain backend: RPC on pruned node, rust-hwi improvements, Implement basic spending policy APIs",
+            "organization": "BDK",
+            "mentor": "Steve Myers",
+            "university": "CSUSB",
+            "country": "United States"
+          },
+          {
+            "name": "Piyush Kumar",
+            "project": "rust-hwi improvements",
+            "organization": "BDK",
+            "mentor": "Daniela Brozzoni",
+            "university": "Indian Institute of Technology Kharagpur",
+            "country": "India"
+          },
+          {
+            "name": "SAI KRISHNA KISHORE CHALLAPALLI",
+            "project": "Update bcoin networking protocol: pruning and compact blocks, Better address setup, Proof of ownership of bitcoin funds, Access tokens for the REST API, Refactor BDK Integration tests",
+            "organization": "BDK",
+            "mentor": "Rajarshi Maitra",
+            "university": "Rajiv Gandhi University of Knowledge Technologies,Nuzvid",
+            "country": "India"
+          },
+          {
+            "name": "Santhosh Anguluri",
+            "project": "Refactor BDK Integration tests",
+            "organization": "BDK",
+            "mentor": "Rajarshi Maitra",
+            "university": "MANIT Bhopal",
+            "country": "India"
           }
         ]
       },
       "2023": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
+        "num_projects": 2,
         "projects": [
           {
-            "name": "Leonardo Lima",
-            "project": "Contributions to BDK",
-            "organization": "BDK"
+            "name": "Temiloluwa Yusuf",
+            "project": "Create Swift iOS Demo Wallet",
+            "organization": "BDK",
+            "mentor": "Steve Myers",
+            "university": "Ahmadu Bello University",
+            "country": "Nigeria"
+          },
+          {
+            "name": "Will Owens",
+            "project": "Add Payjoin support",
+            "organization": "BDK",
+            "mentor": "Steve Myers",
+            "university": "Vanderbilt University",
+            "country": "United States"
           }
         ]
       },
       "2024": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
+        "num_projects": 1,
         "projects": [
           {
             "name": "Luis Schwab",
-            "project": "Contributions to BDK",
-            "organization": "BDK"
+            "project": "Update bdkbitcoindrpc module to work with a pruned bitcoind node",
+            "organization": "BDK",
+            "mentor": "Steve",
+            "university": "Universidade de Brasilia",
+            "country": "Brazil"
           }
         ]
       },
       "2025": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
+        "num_projects": 2,
         "projects": [
           {
             "name": "codingp110",
-            "project": "Contributions to BDK",
-            "organization": "BDK"
+            "project": "Add an alternative storage back-end implementation using redb",
+            "organization": "BDK",
+            "mentor": "Steve Myers, Leonardo",
+            "university": "IIT Kanpur",
+            "country": "India"
+          },
+          {
+            "name": "Pratush Shyam Gupt",
+            "project": "Replace reqwest with async-minreq in rust-esplora-client",
+            "organization": "BDK",
+            "mentor": "Steve Myers, Leonardo",
+            "university": "Indian Institute of Information Technology, Lucknow",
+            "country": "India"
           }
         ]
       }
     }
   },
   {
-    "name": "BTCPayServer & NBXplorer",
-    "url": "https://github.com/btcpayserver",
-    "image_url": "https://github.com/btcpayservernbxplorer.png",
+    "name": "BTCPayServer",
+    "url": "https://github.com/btcpayserver/btcpayserver",
+    "image_url": "https://avatars.githubusercontent.com/u/31abortn",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to BTCPayServer & NBXplorer core by code refactoring, performance optimization and benchmarking. \n\nBTCPayServer & NBXplorer is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A self-hosted, open-source cryptocurrency payment processor.",
+    "category": "Payments",
     "topics": [
-      "Bitcoin",
-      "Design",
-      "Lightning Network"
+      "Payments",
+      "E-commerce",
+      "Bitcoin"
     ],
     "technologies": [
-      "Rust",
-      "JavaScript",
-      "Shell"
+      "C#",
+      ".NET",
+      "JavaScript"
     ],
     "years": {
       "2021": {
@@ -254,112 +364,240 @@ export const getSobData = () => {
           {
             "name": "Ayush Jain",
             "project": "Improve support for file upload and management in BTCPayServer",
-            "organization": "BTCPayServer & NBXplorer"
+            "organization": "BTCPayServer",
+            "mentor": "rockstar",
+            "university": "IIT Kanpur",
+            "country": "India"
           },
           {
             "name": "Manan Sharma",
-            "project": "Improvements to BTCPayServer & NBXplorer",
-            "organization": "BTCPayServer & NBXplorer"
+            "project": "Improvements to BTCPayServer & NBXplorer.",
+            "organization": "BTCPayServer",
+            "mentor": "rockstardev",
+            "university": "IIIT Hyderabad",
+            "country": "India"
           }
         ]
-      },
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": [
-          {
-            "name": "Sanya Malhotra",
-            "project": "Product design for BTCPay Server",
-            "organization": "BTCPayServer & NBXplorer"
-          }
-        ]
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": []
       }
     }
   },
   {
     "name": "Bitcoin Core",
-    "url": "https://github.com/bitcoin",
-    "image_url": "https://github.com/bitcoincore.png",
+    "url": "https://github.com/bitcoin/bitcoin",
+    "image_url": "https://avatars.githubusercontent.com/u/528860",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Bitcoin Core core by code refactoring, performance optimization and benchmarking. \n\nBitcoin Core is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "The reference implementation of the Bitcoin protocol.",
+    "category": "Core",
     "topics": [
-      "Wallets",
-      "Infrastructure",
-      "Nostr"
+      "Bitcoin",
+      "P2P",
+      "Consensus"
     ],
     "technologies": [
       "C++",
-      "Rust",
-      "React",
-      "TypeScript"
+      "Python",
+      "Shell"
     ],
     "years": {
       "2021": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
+        "num_projects": 18,
         "projects": [
           {
             "name": "Aastha Joshi",
-            "project": "Improvements to Bitcoin core by code refactoring, performance optimization and benchmarking",
-            "organization": "Bitcoin Core"
+            "project": "Improvements to Bitcoin core by code refactoring, performance optimization and benchmarking.",
+            "organization": "Bitcoin Core",
+            "mentor": "Jeremy Rubin",
+            "university": "KJ Somaiya College of Engineering",
+            "country": "India"
           },
           {
             "name": "Arnab Sen",
-            "project": "Improve support for User Statically Defined Tracing (USDT) in Bitcoin core by adding new tracepoints and scripts and leveraging eBPF technology",
-            "organization": "Bitcoin Core"
+            "project": "Improve support for User Statically Defined Tracing (USDT) in Bitcoin core by adding new tracepoints and scripts and leveraging eBPF (extended Berkeley Packet Filter) technology.",
+            "organization": "Bitcoin Core",
+            "mentor": "0xb10c",
+            "university": "IIEST Shibpur",
+            "country": "India"
           },
           {
             "name": "Harsh Ghodkar",
-            "project": "Reviewing, testing and fixing issues in Bitcoin core",
-            "organization": "Bitcoin Core"
+            "project": "Reviewing, testing and fixing issues in Bitcoin core.",
+            "organization": "Bitcoin Core",
+            "mentor": "James O'Beirne",
+            "university": "Dr. Jivraj Mehta Institute of Technology Gujarat",
+            "country": "India"
           },
           {
-            "name": "stratospher",
-            "project": "Contributions to Bitcoin Core",
-            "organization": "Bitcoin Core"
+            "name": "Harshit Goyal",
+            "project": "Reviewing, testing and fixing issues in Bitcoin core.",
+            "organization": "Bitcoin Core",
+            "mentor": "James O'Beirne",
+            "university": "Delhi Technological University",
+            "country": "India"
+          },
+          {
+            "name": "Kirandevraj",
+            "project": "Optimizing performance of descriptor wallets in Bitcoin core.",
+            "organization": "Bitcoin Core",
+            "mentor": "Sjors Provoost",
+            "university": "IIIT Hyderabad",
+            "country": "India"
+          },
+          {
+            "name": "Naiza Singla",
+            "project": "Improvements to mempool and package relay in Bitcoin core.",
+            "organization": "Bitcoin Core",
+            "mentor": "Gloria Zhao",
+            "university": "IIT Kanpur",
+            "country": "India"
+          },
+          {
+            "name": "Nikhil Bartwal",
+            "project": "Add block re-org capability to the signet network, fix faucet's incompatibility with custom signet and improve documentation.",
+            "organization": "Bitcoin Core",
+            "mentor": "0xb10c",
+            "university": "Amity University",
+            "country": "India"
+          },
+          {
+            "name": "Prakash Choudhary",
+            "project": "Developing fuzz test to prove that the Bitcoin core implementation of streamcipher chacha20 is the same as the reference implementation by D.J. Bernstein and improvements to BIP324.",
+            "organization": "Bitcoin Core",
+            "mentor": "Dhruv Mehta",
+            "university": "IIT Kanpur",
+            "country": "India"
+          },
+          {
+            "name": "Pranab Pandey",
+            "project": "Improvements to wallet RPC for accurate fee estimation.",
+            "organization": "Bitcoin Core",
+            "mentor": "Gregory Sanders",
+            "university": "IIT Kanpur",
+            "country": "India"
+          },
+          {
+            "name": "Prateek Sancheti",
+            "project": "Improvements to bitcoin-core GUI i.e., bitcoin-qt.",
+            "organization": "Bitcoin Core",
+            "mentor": "Hennadii Stepanov",
+            "university": "IIIT Hyderabad",
+            "country": "India"
+          },
+          {
+            "name": "Purva Chaudhari",
+            "project": "Develop functional tests for Test Feeler Connections in Bitcoin core.",
+            "organization": "Bitcoin Core",
+            "mentor": "Amiti Uttarwar",
+            "university": "VIT Pune",
+            "country": "India"
+          },
+          {
+            "name": "Ritick Goenka",
+            "project": "Reviewing, testing and fixing issues in Bitcoin core. Developing tests for mempool ancestor/descendant limits.",
+            "organization": "Bitcoin Core",
+            "mentor": "Russel Yanofsky",
+            "university": "IIT Roorkee",
+            "country": "India"
+          },
+          {
+            "name": "Rohit Ranjan",
+            "project": "Profile Guided Optimization (PGO) i.e., using profiling and instrumentation techniques to analyze run time statistics and integrate it in Bitcoin core.",
+            "organization": "Bitcoin Core",
+            "mentor": "Michael Ford",
+            "university": "IIT Kanpur",
+            "country": "India"
+          },
+          {
+            "name": "Shashwat Vangani",
+            "project": "Improvements to bitcoin-core GUI i.e., bitcoin-qt.",
+            "organization": "Bitcoin Core",
+            "mentor": "Jarol Rodriguez",
+            "university": "IIT Roorkee",
+            "country": "India"
+          },
+          {
+            "name": "Shorya Kumar",
+            "project": "Improvements to Bitcoin core by code refactoring, performance optimization and benchmarking.",
+            "organization": "Bitcoin Core",
+            "mentor": "Jeremy Rubin",
+            "university": "IIT Kanpur",
+            "country": "India"
+          },
+          {
+            "name": "Shubhankar Gambhir",
+            "project": "Reviewing, testing and fixing issues in Bitcoin core.",
+            "organization": "Bitcoin Core",
+            "mentor": "Vasil Dimov",
+            "university": "IIT Kanpur",
+            "country": "India"
           },
           {
             "name": "Sriram Devata",
-            "project": "Contributions to Bitcoin Core",
-            "organization": "Bitcoin Core"
+            "project": "Introduce a -nomempool runtime option to run a Bitcoin node without the mempool, and add a fuzz target for orphan transaction handling to detect potential security issues.",
+            "organization": "Bitcoin Core",
+            "mentor": "Marco Falke",
+            "university": "IIIT Hyderabad",
+            "country": "India"
+          },
+          {
+            "name": "stratospher",
+            "project": "Fuzz testing improvements to Bitcoin core.",
+            "organization": "Bitcoin Core",
+            "mentor": "Dhruv Mehta",
+            "university": "NA",
+            "country": "NA"
           }
         ]
       },
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
+        "num_projects": 4,
         "projects": [
           {
             "name": "Akanksha Kashyap",
-            "project": "Functional test for coin selection in Bitcoin Core",
-            "organization": "Bitcoin Core"
+            "project": "Bitcoin Core - Functional test for coin selection, Bitcoin Core - Functional test for coin selection, Hexa Wallet - Improving UTXO selection",
+            "organization": "Bitcoin Core",
+            "mentor": "Bruno Gracia",
+            "university": "Indian Institute of Information Technology Allahabad",
+            "country": "India"
           },
           {
             "name": "Animesh Bilthare",
             "project": "Transaction Conflicts in simulaterawtransaction",
-            "organization": "Bitcoin Core"
+            "organization": "Bitcoin Core",
+            "mentor": "Andrew Chow",
+            "university": "Bits pilani",
+            "country": "India"
+          },
+          {
+            "name": "Jing Liu",
+            "project": "Add fuzz target for txorphanage",
+            "organization": "Bitcoin Core",
+            "mentor": "Marco Falke",
+            "university": "Shanghai University",
+            "country": "China"
+          },
+          {
+            "name": "kolby moroz Liebl",
+            "project": "Implement a GUI for Importing to the Wallet",
+            "organization": "Bitcoin Core",
+            "mentor": "Andrew Chow",
+            "university": "University of Alberta",
+            "country": "Canada"
           }
         ]
       },
       "2023": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
+        "num_projects": 1,
         "projects": [
           {
             "name": "Ayush Singh",
             "project": "Increasing coverage of wallet codebase in Bitcoin Core",
-            "organization": "Bitcoin Core"
+            "organization": "Bitcoin Core",
+            "mentor": "Bruno Gracia",
+            "university": "Jabalpur Engineering College",
+            "country": "India"
           }
         ]
       },
@@ -369,13 +607,19 @@ export const getSobData = () => {
         "projects": [
           {
             "name": "Prabhat Verma",
-            "project": "Contributions to Bitcoin Core, LDK, PayJoin",
-            "organization": "Bitcoin Core"
+            "project": "Reviewing and testing improvements for Bitcoin Core",
+            "organization": "Bitcoin Core",
+            "mentor": "stratospher, 0xb10c",
+            "university": "Indian Institute of Technology Roorkee",
+            "country": "India"
           },
           {
             "name": "Yuvraj Chhetri",
-            "project": "Contributions to Bitcoin Core",
-            "organization": "Bitcoin Core"
+            "project": "peer-observer: Anomaly detection and alerting for Bitcoin Core P2P events",
+            "organization": "Bitcoin Core",
+            "mentor": "stratospher, 0xb10c",
+            "university": "National Institute of Technology Durgapur",
+            "country": "India"
           }
         ]
       },
@@ -385,8 +629,83 @@ export const getSobData = () => {
         "projects": [
           {
             "name": "Pol Espinasa",
-            "project": "Contributions to Bitcoin Core",
-            "organization": "Bitcoin Core"
+            "project": "Improve Fee Rate Precision in Bitcoin Core CFeeRate Class",
+            "organization": "Bitcoin Core",
+            "mentor": "Abubakar",
+            "university": "Universitat Autònoma de Barcelona",
+            "country": "Spain"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Bitcoin Design",
+    "url": "https://github.com/BitcoinDesign",
+    "image_url": "https://avatars.githubusercontent.com/u/73498329",
+    "image_background_color": "#ffffff",
+    "description": "An open-source community for improving Bitcoin UX/UI design.",
+    "category": "Design",
+    "topics": [
+      "Design",
+      "UX",
+      "Bitcoin"
+    ],
+    "technologies": [
+      "Figma",
+      "HTML",
+      "CSS"
+    ],
+    "years": {
+      "2023": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 2,
+        "projects": [
+          {
+            "name": "Satyam Shukla",
+            "project": "A Lightning wallet for people with visual disabilities",
+            "organization": "Bitcoin Design",
+            "mentor": "Stephen DeLorme, Mogashni",
+            "university": "Abdul Kalam technical University",
+            "country": "India"
+          },
+          {
+            "name": "tanishka Sharma",
+            "project": "uMlando Wallet UI Design",
+            "organization": "Bitcoin Design",
+            "mentor": "Stephen DeLorme, Mogashni",
+            "university": "Indian Institute of Technology, Madras",
+            "country": "India"
+          }
+        ]
+      },
+      "2024": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 3,
+        "projects": [
+          {
+            "name": "Bhuvan Ade",
+            "project": "State of the union for LN UX",
+            "organization": "Bitcoin Design",
+            "mentor": "Mogashni, Chris, Himanshu",
+            "university": "Indian Institute of Technology, Roorkee",
+            "country": "India"
+          },
+          {
+            "name": "deeksha satapathy",
+            "project": "Redesign the Border Wallets website",
+            "organization": "Bitcoin Design",
+            "mentor": "Mogashni, Chris, Himanshu",
+            "university": "Symbiosis Skills and Professional University",
+            "country": "India"
+          },
+          {
+            "name": "Sanya Malhotra",
+            "project": "Bitcoin UI Gallery",
+            "organization": "Bitcoin Design",
+            "mentor": "Mogashni, Chris, Himanshu",
+            "university": "York University",
+            "country": "Canada"
           }
         ]
       }
@@ -394,154 +713,180 @@ export const getSobData = () => {
   },
   {
     "name": "Bitcoin Dev Project",
-    "url": "https://github.com/bitcoindevproject",
+    "url": "https://github.com/AKASHnagesh/bitcoin-dev-project",
     "image_url": "https://github.com/bitcoindevproject.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Bitcoin Dev Project core by code refactoring, performance optimization and benchmarking. \n\nBitcoin Dev Project is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "An educational and branding initiative for Bitcoin open-source developers.",
+    "category": "Education",
     "topics": [
-      "Nostr",
-      "Infrastructure",
-      "Wallets",
-      "Design"
-    ],
-    "technologies": [
-      "Python",
-      "Node.js",
-      "React"
-    ],
-    "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": []
-      },
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": []
-      }
-    }
-  },
-  {
-    "name": "Bitcoin-Design",
-    "url": "https://bitcoin.design",
-    "image_url": "https://logo.clearbit.com/bitcoin.design",
-    "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Bitcoin-Design core by code refactoring, performance optimization and benchmarking. \n\nBitcoin-Design is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
-    "topics": [
+      "Education",
       "Bitcoin",
-      "Infrastructure"
+      "Brand"
     ],
     "technologies": [
       "JavaScript",
-      "React"
+      "Design"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
-      },
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": [
-          {
-            "name": "Bhuvan Ade",
-            "project": "State of the union for LN UX",
-            "organization": "Bitcoin-Design"
-          },
-          {
-            "name": "Deeksha Satapathy",
-            "project": "Redesign the Border Wallets website",
-            "organization": "Bitcoin-Design"
-          }
-        ]
-      }
-    },
-    "fallback_image": "https://github.com/bitcoindesign.png"
-  },
-  {
-    "name": "Bitcoin-Fuzz",
-    "url": "https://github.com/bitcoin-core",
-    "image_url": "https://github.com/bitcoinfuzz.png",
-    "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Bitcoin-Fuzz core by code refactoring, performance optimization and benchmarking. \n\nBitcoin-Fuzz is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
-    "topics": [
-      "Cryptography",
-      "Lightning Network"
-    ],
-    "technologies": [
-      "React",
-      "Node.js"
-    ],
-    "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      },
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      },
-      "2024": {
+      "2025": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 1,
-        "projects": []
+        "projects": [
+          {
+            "name": "Sanya Malhotra",
+            "project": "Brand Update",
+            "organization": "Bitcoin Dev Project",
+            "mentor": "Stacie",
+            "university": "York University",
+            "country": "Canada"
+          }
+        ]
       }
     }
   },
   {
-    "name": "Bitcoin-Keeper",
-    "url": "https://github.com/bithyve/bitcoin-keeper",
-    "image_url": "https://github.com/bitcoinkeeper.png",
+    "name": "Bitcoin Fuzz",
+    "url": "https://github.com/AKASHnagesh/bitcoin-fuzz",
+    "image_url": "https://github.com/bitcoin.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Bitcoin-Keeper core by code refactoring, performance optimization and benchmarking. \n\nBitcoin-Keeper is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "Fuzz testing infrastructure for Bitcoin implementations to improve security.",
+    "category": "Testing",
     "topics": [
-      "Design",
-      "Infrastructure"
+      "Fuzzing",
+      "Security",
+      "Bitcoin"
     ],
     "technologies": [
-      "Shell",
       "C++",
-      "Python",
-      "JavaScript"
+      "Rust",
+      "Python"
     ],
     "years": {
       "2024": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Kartik Agarwala",
+            "project": "de/serialization of Bitcoin protocol network messages",
+            "organization": "Bitcoin Fuzz",
+            "mentor": "Bruno",
+            "university": "BML Munjal University",
+            "country": "India"
+          }
+        ]
+      },
+      "2025": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "yuvic ₿",
+            "project": "Differential Fuzzing Bitcoin implementations",
+            "organization": "Bitcoin Fuzz",
+            "mentor": "Bruno Gracia",
+            "university": "NIT Durgapur",
+            "country": "India"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Bitcoin Keeper",
+    "url": "https://github.com/AKASHnagesh/bitcoin-keeper",
+    "image_url": "https://github.com/AKASHnagesh.png",
+    "image_background_color": "#ffffff",
+    "description": "A Bitcoin wallet focused on security and ease of use.",
+    "category": "Wallet",
+    "topics": [
+      "Wallets",
+      "Bitcoin",
+      "Security"
+    ],
+    "technologies": [
+      "React Native",
+      "TypeScript"
+    ],
+    "years": {
+      "2025": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Rakshita Murugan",
+            "project": "Bitcoin Keeper Desktop App UX/UI",
+            "organization": "Bitcoin Keeper",
+            "mentor": "Anant Tapadia",
+            "university": "National University of Singapore",
+            "country": "Singapore"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Bitcoin Tribe",
+    "url": "https://github.com/AKASHnagesh/bitcoin-tribe",
+    "image_url": "https://github.com/AKASHnagesh.png",
+    "image_background_color": "#ffffff",
+    "description": "A social Bitcoin wallet for communities.",
+    "category": "Wallet",
+    "topics": [
+      "Wallets",
+      "Social",
+      "Bitcoin"
+    ],
+    "technologies": [
+      "React Native",
+      "TypeScript"
+    ],
+    "years": {
+      "2023": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Raihan Khan",
+            "project": "Mobile UI automation for a bitcoin social wallet - Bitcoin Tribe",
+            "organization": "Bitcoin Tribe",
+            "mentor": "Prasad Prabhakaran",
+            "university": "Institute of Engineering & Management",
+            "country": "India"
+          }
+        ]
+      },
+      "2025": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Sanyam Shivhare",
+            "project": "Establishing a Comprehensive Brand Identity for Bitcoin Tribe",
+            "organization": "Bitcoin Tribe",
+            "mentor": "Abhilash",
+            "university": "Indian Institute of Technology Kanpur",
+            "country": "India"
+          }
+        ]
       }
     }
   },
   {
     "name": "Bitcoin-S",
-    "url": "https://github.com/bitcoin-s",
-    "image_url": "https://github.com/bitcoins.png",
+    "url": "https://github.com/bitcoin-s/bitcoin-s",
+    "image_url": "https://avatars.githubusercontent.com/u/23284387",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Bitcoin-S core by code refactoring, performance optimization and benchmarking. \n\nBitcoin-S is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A Scala implementation of the Bitcoin protocol with DLC support.",
+    "category": "Protocol",
     "topics": [
-      "Node",
-      "Design",
-      "Infrastructure",
-      "Bitcoin"
+      "Bitcoin",
+      "DLC",
+      "Scala"
     ],
     "technologies": [
-      "Go",
-      "TypeScript"
+      "Scala",
+      "Java"
     ],
     "years": {
       "2021": {
@@ -550,79 +895,53 @@ export const getSobData = () => {
         "projects": [
           {
             "name": "Shreyansh Yadav",
-            "project": "Add support for multiple peer-to-peer connections in bitcoin-s",
-            "organization": "Bitcoin-S"
+            "project": "Add support for multiple peer-to-peer connections in bitcoin-s.",
+            "organization": "Bitcoin-S",
+            "mentor": "Chris Stewart",
+            "university": "IIT BHU",
+            "country": "India"
           },
           {
             "name": "Shruthii RG",
-            "project": "Implement mempool for Bitcoin-S",
-            "organization": "Bitcoin-S"
+            "project": "Implement mempool for Bitcoin-S to enable a robust and fault tolerant p2p network.",
+            "organization": "Bitcoin-S",
+            "mentor": "Chris Stewart",
+            "university": "Dayananda Sagar College of Engineering",
+            "country": "India"
           }
         ]
       },
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": []
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      }
-    }
-  },
-  {
-    "name": "Bitcoin-Tribe",
-    "url": "https://summerofbitcoin.org",
-    "image_url": "https://github.com/bitcointribe.png",
-    "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Bitcoin-Tribe core by code refactoring, performance optimization and benchmarking. \n\nBitcoin-Tribe is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
-    "topics": [
-      "Bitcoin",
-      "Lightning Network"
-    ],
-    "technologies": [
-      "C++",
-      "JavaScript",
-      "Rust"
-    ],
-    "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      },
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Shreyansh Yadav",
+            "project": "Bitcoin-s multipeer neutrino",
+            "organization": "Bitcoin-S",
+            "mentor": "Chris Stewart",
+            "university": "IIT (BHU), Varanasi",
+            "country": "India"
+          }
+        ]
       }
     }
   },
   {
     "name": "BitcoinJS",
-    "url": "https://github.com/bitcoinjs",
-    "image_url": "https://github.com/bitcoinjs.png",
+    "url": "https://github.com/AKASHnagesh/bitcoinjs",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to BitcoinJS core by code refactoring, performance optimization and benchmarking. \n\nBitcoinJS is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A JavaScript library for Bitcoin transactions and key management.",
+    "category": "Library",
     "topics": [
-      "Lightning Network",
       "Bitcoin",
-      "Design"
+      "JavaScript",
+      "Transactions"
     ],
     "technologies": [
-      "Python",
-      "Shell",
       "JavaScript",
-      "Go"
+      "TypeScript"
     ],
     "years": {
       "2024": {
@@ -632,51 +951,68 @@ export const getSobData = () => {
           {
             "name": "Ayman Mohammed",
             "project": "Add ES Modules support to the ecosystem",
-            "organization": "BitcoinJS"
+            "organization": "BitcoinJS",
+            "mentor": "Jonathan",
+            "university": "Mahatma Gandhi Institute of Technology",
+            "country": "India"
           }
         ]
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": []
       }
     }
   },
   {
     "name": "Blockcore",
     "url": "https://github.com/block-core",
-    "image_url": "https://github.com/blockcore.png",
+    "image_url": "https://avatars.githubusercontent.com/u/51785660",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Blockcore core by code refactoring, performance optimization and benchmarking. \n\nBlockcore is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "An open platform for building decentralized applications on Bitcoin.",
+    "category": "Platform",
     "topics": [
-      "P2P",
-      "Cryptography"
+      "Bitcoin",
+      "Indexer",
+      "Wallet"
     ],
     "technologies": [
-      "C++",
-      "React"
+      "C#",
+      ".NET",
+      "TypeScript"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
       "2024": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
+        "num_projects": 4,
         "projects": [
           {
             "name": "Aashutosh Sapkota",
             "project": "Content creation for Angor",
-            "organization": "Blockcore"
+            "organization": "Blockcore",
+            "mentor": "Dan",
+            "university": "United Technical College affiliated to Pokhara University",
+            "country": "Nepal"
           },
           {
             "name": "Dhruv Bhanushali",
             "project": "Convert indexer from Mongodb to PostgresSQL",
-            "organization": "Blockcore"
+            "organization": "Blockcore",
+            "mentor": "Dan",
+            "university": "Indian Institute of Information Technology Design and Manufacturing Jabalpur",
+            "country": "India"
+          },
+          {
+            "name": "Ogenna Daniel",
+            "project": "Content creation for Angor",
+            "organization": "Blockcore",
+            "mentor": "Dan",
+            "university": "Federal University of technology Owerri, Imo State, Nigeria",
+            "country": "Nigeria"
+          },
+          {
+            "name": "Tirth Bhayani",
+            "project": "Implement PSBT API support in blockcore wallet extension",
+            "organization": "Blockcore",
+            "mentor": "Dan",
+            "university": "IIT- (BHU) Varanasi",
+            "country": "India"
           }
         ]
       }
@@ -684,88 +1020,141 @@ export const getSobData = () => {
   },
   {
     "name": "Breez",
-    "url": "https://breez.technology",
-    "image_url": "https://logo.clearbit.com/breez.technology",
+    "url": "https://github.com/AKASHnagesh/breez",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Breez core by code refactoring, performance optimization and benchmarking. \n\nBreez is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A Lightning Network SDK and mobile app for everyday Bitcoin payments.",
+    "category": "Lightning",
     "topics": [
-      "P2P",
-      "Node",
-      "Infrastructure",
-      "Bitcoin"
-    ],
-    "technologies": [
-      "JavaScript",
-      "Shell",
-      "React"
-    ],
-    "years": {
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": [
-          {
-            "name": "Ayush Saksena",
-            "project": "Contributions to Breez",
-            "organization": "Breez"
-          }
-        ]
-      }
-    },
-    "fallback_image": "https://github.com/breez.png"
-  },
-  {
-    "name": "Caravan",
-    "url": "https://github.com/caravan-bitcoin",
-    "image_url": "https://github.com/caravan.png",
-    "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Caravan core by code refactoring, performance optimization and benchmarking. \n\nCaravan is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
-    "topics": [
-      "Nostr",
       "Lightning Network",
-      "Node"
+      "Mobile",
+      "Payments"
     ],
     "technologies": [
-      "Python",
-      "JavaScript"
+      "Go",
+      "Dart",
+      "Rust"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": []
-      },
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 1,
-        "projects": []
+        "projects": [
+          {
+            "name": "Utkarsh Shendge",
+            "project": "Breez Podcast Player Enhancements",
+            "organization": "Breez",
+            "mentor": "Roy Sheinfeld, Roei Erez",
+            "university": "Vishwakarma Institute of Technology",
+            "country": "India"
+          }
+        ]
       },
-      "2024": {
+      "2023": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 1,
+        "projects": [
+          {
+            "name": "Sarthak Gupta",
+            "project": "nostr integration in Breez",
+            "organization": "Breez",
+            "mentor": "Roy Sheinfeld",
+            "university": "IIT ROORKEE",
+            "country": "India"
+          }
+        ]
+      },
+      "2025": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Ayush Saksena",
+            "project": "Add Nostr Wallet Connect (NWC) to the Breez SDK",
+            "organization": "Breez",
+            "mentor": "Roy Sheinfeld",
+            "university": "PDPM IIITDM Jabalpur",
+            "country": "India"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Caravan",
+    "url": "https://github.com/caravan-bitcoin/caravan",
+    "image_url": "https://avatars.githubusercontent.com/u/72919658",
+    "image_background_color": "#ffffff",
+    "description": "A multisig coordinator for Bitcoin with a focus on transparency and security.",
+    "category": "Wallet",
+    "topics": [
+      "Multisig",
+      "Bitcoin",
+      "Security"
+    ],
+    "technologies": [
+      "JavaScript",
+      "TypeScript",
+      "React"
+    ],
+    "years": {
+      "2024": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 3,
         "projects": [
           {
             "name": "Arilewola Sodiq",
             "project": "Reimagining the design for a stateless coordinator",
-            "organization": "Caravan"
+            "organization": "Caravan",
+            "mentor": "Buck",
+            "university": "University of Ilorin",
+            "country": "Nigeria"
+          },
+          {
+            "name": "Harshil Jani",
+            "project": "R&D: Multisig wallet health dashboard",
+            "organization": "Caravan",
+            "mentor": "Buck",
+            "university": "NIT Surat",
+            "country": "India"
+          },
+          {
+            "name": "Mrigesh Thakur",
+            "project": "Fee bumping support in Caravan",
+            "organization": "Caravan",
+            "mentor": "Buck",
+            "university": "National Institute of Technology Hamirpur",
+            "country": "India"
           }
         ]
       },
       "2025": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
+        "num_projects": 3,
         "projects": [
           {
             "name": "Abhishek Raj",
             "project": "Improve Testing of Caravan",
-            "organization": "Caravan"
+            "organization": "Caravan",
+            "mentor": "Buck Perley",
+            "university": "National Institute of Technology, Durgapur",
+            "country": "India"
           },
           {
             "name": "Armaan Shukla",
             "project": "Wallet Health Dashboard in Caravan Coordinator",
-            "organization": "Caravan"
+            "organization": "Caravan",
+            "mentor": "Buck Perley",
+            "university": "National Institute of Technology Hamirpur",
+            "country": "India"
+          },
+          {
+            "name": "Krrish Sehgal",
+            "project": "QR Code Based Interactions in Caravan",
+            "organization": "Caravan",
+            "mentor": "Buck Perley",
+            "university": "Jaypee Institute of Information Technology",
+            "country": "India"
           }
         ]
       }
@@ -773,39 +1162,65 @@ export const getSobData = () => {
   },
   {
     "name": "ChatBTC",
-    "url": "https://github.com/ChatBTC",
-    "image_url": "https://github.com/chatbtc.png",
+    "url": "https://github.com/AKASHnagesh/chatbtc",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to ChatBTC core by code refactoring, performance optimization and benchmarking. \n\nChatBTC is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "AI-assisted Bitcoin coding and learning tools.",
+    "category": "Education",
     "topics": [
-      "Design",
-      "Wallets",
-      "Lightning Network"
+      "AI",
+      "Bitcoin",
+      "Education"
     ],
     "technologies": [
-      "React",
-      "Shell"
+      "Python",
+      "TypeScript",
+      "JavaScript"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
       "2025": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
+        "num_projects": 5,
         "projects": [
           {
             "name": "Aru Sharma",
             "project": "Bitcoin AI-Assisted Coding Tools",
-            "organization": "ChatBTC"
+            "organization": "ChatBTC",
+            "mentor": "Kostas Karasavvas, Bob, Andreas",
+            "university": "Panjab University",
+            "country": "India"
+          },
+          {
+            "name": "Keshav Arora",
+            "project": "Bitcoin AI-Assisted Coding Tools",
+            "organization": "ChatBTC",
+            "mentor": "Kostas Karasavvas, Bob, Andreas",
+            "university": "Punjab Engineering College",
+            "country": "India"
+          },
+          {
+            "name": "Naitik Agrawal",
+            "project": "Bitcoin AI-Assisted Coding Tools",
+            "organization": "ChatBTC",
+            "mentor": "Kostas Karasavvas, Bob, Andreas",
+            "university": "Indian Institute Of Technology , BHU",
+            "country": "India"
+          },
+          {
+            "name": "Rohan Chandra Sen",
+            "project": "Bitcoin AI-Assisted Coding Tools",
+            "organization": "ChatBTC",
+            "mentor": "Kostas Karasavvas, Bob, Andreas",
+            "university": "Indian Institute of Information Technology",
+            "country": "India"
           },
           {
             "name": "Shashank Shekhar Singh",
-            "project": "Contributions to ChatBTC",
-            "organization": "ChatBTC"
+            "project": "Bitcoin AI-Assisted Coding Tools",
+            "organization": "ChatBTC",
+            "mentor": "Kostas Karasavvas, Bob, Andreas",
+            "university": "IIT BHU, Varanasi, India",
+            "country": "India"
           }
         ]
       }
@@ -813,68 +1228,77 @@ export const getSobData = () => {
   },
   {
     "name": "Coinswap",
-    "url": "https://github.com/citadel-tech/coinswap",
-    "image_url": "https://github.com/coinswap.png",
+    "url": "https://github.com/AKASHnagesh/coinswap",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Coinswap core by code refactoring, performance optimization and benchmarking. \n\nCoinswap is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A protocol for trustless atomic swaps with improved privacy.",
+    "category": "Privacy",
     "topics": [
-      "Infrastructure",
-      "P2P",
-      "Cryptography",
-      "Node"
+      "Privacy",
+      "Bitcoin",
+      "Atomic Swaps"
     ],
     "technologies": [
-      "Node.js",
-      "React",
-      "JavaScript"
+      "Rust"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": [
-          {
-            "name": "Rishabh Khandelwal",
-            "project": "Contributions to Coinswap",
-            "organization": "Coinswap"
-          }
-        ]
-      },
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
-      },
-      "2023": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": [
-          {
-            "name": "Mohit Kumar",
-            "project": "Contributions to Coinswap",
-            "organization": "Coinswap"
-          }
-        ]
-      },
       "2024": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": []
+        "num_projects": 3,
+        "projects": [
+          {
+            "name": "Divyansh Gupta",
+            "project": "BDK Wallet Infrastructure",
+            "organization": "Coinswap",
+            "mentor": "Raj",
+            "university": "Indian Institute of Information Technology , Lucknow",
+            "country": "India"
+          },
+          {
+            "name": "Mohit kumar",
+            "project": "Sync Taker via CBF",
+            "organization": "Coinswap",
+            "mentor": "Raj",
+            "university": "Indian Institute of Information Technology, Nagpur",
+            "country": "India"
+          },
+          {
+            "name": "Rajat Khanduri",
+            "project": "BDK Wallet Infrastructure",
+            "organization": "Coinswap",
+            "mentor": "Raj",
+            "university": "Panjab University",
+            "country": "India"
+          }
+        ]
       },
       "2025": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
+        "num_projects": 3,
         "projects": [
           {
             "name": "Mohamed Emad",
-            "project": "Contributions to Coinswap",
-            "organization": "Coinswap"
+            "project": "Event Loop Library for Efficient I/O Management",
+            "organization": "Coinswap",
+            "mentor": "Rajarshi Maitra",
+            "university": "Zagazig University",
+            "country": "Egypt"
+          },
+          {
+            "name": "Riccardo Bertelli",
+            "project": "Wallet Encryption and Backup Mechanism",
+            "organization": "Coinswap",
+            "mentor": "Rajarshi Maitra",
+            "university": "Università della Valle d'Aosta",
+            "country": "Italy"
           },
           {
             "name": "Sarthak Arora",
-            "project": "Contributions to Coinswap",
-            "organization": "Coinswap"
+            "project": "Fix Taker Private Key Handover Exploit",
+            "organization": "Coinswap",
+            "mentor": "Rajarshi Maitra",
+            "university": "Bennett University",
+            "country": "India"
           }
         ]
       }
@@ -883,67 +1307,18 @@ export const getSobData = () => {
   {
     "name": "Core Lightning",
     "url": "https://github.com/ElementsProject/lightning",
-    "image_url": "https://github.com/corelightning.png",
+    "image_url": "https://avatars.githubusercontent.com/u/21978224",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Core Lightning core by code refactoring, performance optimization and benchmarking. \n\nCore Lightning is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A Lightning Network implementation in C, focused on spec compliance and extensibility.",
+    "category": "Lightning",
     "topics": [
-      "Nostr",
+      "Lightning Network",
       "Node",
-      "Infrastructure"
+      "Plugins"
     ],
     "technologies": [
-      "Node.js",
-      "JavaScript",
-      "TypeScript",
-      "Go"
-    ],
-    "years": {
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": [
-          {
-            "name": "Aditya Sharma",
-            "project": "Static channel backups for c-lightning",
-            "organization": "Core Lightning"
-          }
-        ]
-      },
-      "2023": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": [
-          {
-            "name": "Aditya Sharma",
-            "project": "Automated and Reliable Peer Backups for Lightning Channels",
-            "organization": "Core Lightning"
-          }
-        ]
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      }
-    }
-  },
-  {
-    "name": "Core Lightning Toolkit",
-    "url": "https://summerofbitcoin.org",
-    "image_url": "https://github.com/corelightningtoolkit.png",
-    "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Core Lightning Toolkit core by code refactoring, performance optimization and benchmarking. \n\nCore Lightning Toolkit is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
-    "topics": [
-      "Design",
-      "P2P",
-      "Infrastructure"
-    ],
-    "technologies": [
-      "React",
+      "C",
       "Python",
-      "TypeScript",
       "Rust"
     ],
     "years": {
@@ -953,16 +1328,124 @@ export const getSobData = () => {
         "projects": [
           {
             "name": "Aditya Sharma",
-            "project": "Implementing a web socket in native JavaScript for communicating with LN nodes, decoding/creating messages and BOLT12 offers/invoice_request/invoices",
-            "organization": "Core Lightning Toolkit"
+            "project": "Implementing a web socket in native JavaScript for communicating with LN nodes, decoding/creating messages and BOLT12 offers/invoice_request/invoices.",
+            "organization": "Core Lightning",
+            "mentor": "Rusty Russell",
+            "university": "IIT BHU",
+            "country": "India"
           }
         ]
       },
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 5,
-        "projects": []
+        "projects": [
+          {
+            "name": "Aditya Sharma",
+            "project": "Static channel backups for c-lightning",
+            "organization": "Core Lightning",
+            "mentor": "Rusty Russell",
+            "university": "IIT-BHU",
+            "country": "India"
+          },
+          {
+            "name": "Gautam Jajoo",
+            "project": "Plugin Support for rust-clightnining-rpc",
+            "organization": "Core Lightning",
+            "mentor": "Vincenzo Palazzo",
+            "university": "Birla Institute of Technology and Science, Pilani",
+            "country": "India"
+          },
+          {
+            "name": "Kavan Desai",
+            "project": "Implement a GUI for Importing to the Wallet, Convert non-wallet tests to use Python MiniWallet, Tor Support, Plugin Support for lndart.clightning, Breez Point-of-Sale Enhancements, Breez Podcast Player Enhancements",
+            "organization": "Core Lightning",
+            "mentor": "Vincenzo Palazzo",
+            "university": "Ahmedabad University",
+            "country": "India"
+          },
+          {
+            "name": "Precious Ndubueze Ndubueze",
+            "project": "Plugin Support for lndart.clightning",
+            "organization": "Core Lightning",
+            "mentor": "Vincenzo Palazzo",
+            "university": "Silesian University of Technology",
+            "country": "Poland"
+          },
+          {
+            "name": "Swapnil Tripathi",
+            "project": "Improve examples and documentation, Plugin Support for lndart.clightning",
+            "organization": "Core Lightning",
+            "mentor": "Vincenzo Palazzo",
+            "university": "KIIT University, Bhubaneswar, Orissa, India",
+            "country": "India"
+          }
+        ]
       },
+      "2023": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Aditya Sharma",
+            "project": "Automated and Reliable Peer Backups for Lightning Channels",
+            "organization": "Core Lightning",
+            "mentor": "Rusty Russell",
+            "university": "IIT-BHU",
+            "country": "India"
+          }
+        ]
+      },
+      "2024": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 3,
+        "projects": [
+          {
+            "name": "Max Rantil",
+            "project": "Lightning Protocol: Private Connection Address",
+            "organization": "Core Lightning",
+            "mentor": "Alex, Vincenzo",
+            "university": "Hive Helsinki",
+            "country": "Sweden"
+          },
+          {
+            "name": "Raehat Singh Nanda",
+            "project": "CLN: Research Project on CLN Pay Plugin",
+            "organization": "Core Lightning",
+            "mentor": "Alex, Vincenzo",
+            "university": "Bennett University",
+            "country": "India"
+          },
+          {
+            "name": "Tarek Elsayed",
+            "project": "CLN: Research Project on CLN Pay Plugin",
+            "organization": "Core Lightning",
+            "mentor": "Alex, Vincenzo",
+            "university": "Mansoura University",
+            "country": "Egypt"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Core Lightning Toolkit",
+    "url": "https://github.com/AKASHnagesh/cln-toolkit",
+    "image_url": "https://github.com/AKASHnagesh.png",
+    "image_background_color": "#ffffff",
+    "description": "Cross-platform tools and apps for managing Core Lightning nodes.",
+    "category": "Lightning",
+    "topics": [
+      "Lightning Network",
+      "Tooling",
+      "Core Lightning"
+    ],
+    "technologies": [
+      "Dart",
+      "Flutter",
+      "Python"
+    ],
+    "years": {
       "2023": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 2,
@@ -970,7 +1453,18 @@ export const getSobData = () => {
           {
             "name": "Harshit Harshit",
             "project": "New actions for CLNAPP: a cross-platform app for Core Lightning",
-            "organization": "Core Lightning Toolkit"
+            "organization": "Core Lightning Toolkit",
+            "mentor": "Vincenzo Palazzo",
+            "university": "Delhi Technological University",
+            "country": "India"
+          },
+          {
+            "name": "Tarek Elsayed",
+            "project": "New commands for a plugin manager in Core Lightning",
+            "organization": "Core Lightning Toolkit",
+            "mentor": "Vincenzo Palazzo",
+            "university": "Mansoura University",
+            "country": "Egypt"
           }
         ]
       }
@@ -978,58 +1472,56 @@ export const getSobData = () => {
   },
   {
     "name": "Cryptoanarchy Debian",
-    "url": "https://summerofbitcoin.org",
-    "image_url": "https://github.com/cryptoanarchydebian.png",
+    "url": "https://github.com/AKASHnagesh/cryptoanarchy-debian",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Cryptoanarchy Debian core by code refactoring, performance optimization and benchmarking. \n\nCryptoanarchy Debian is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "Debian packages to easily deploy freedom-enabling tools including Bitcoin and Lightning.",
+    "category": "Infrastructure",
     "topics": [
-      "Bitcoin",
-      "Lightning Network",
-      "Cryptography"
+      "Packaging",
+      "Debian",
+      "Bitcoin"
     ],
     "technologies": [
-      "Python",
-      "C++",
-      "Shell"
+      "Shell",
+      "Nix",
+      "Debian"
     ],
     "years": {
-      "2021": {
+      "2022": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 1,
-        "projects": []
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
+        "projects": [
+          {
+            "name": "Songlin Jiang",
+            "project": "Polishing CADR-guide, CI for CADR, Packaging new applications into CADR",
+            "organization": "Cryptoanarchy Debian",
+            "mentor": "Kixunil (Martin Habovštiak)",
+            "university": "Lanzhou University",
+            "country": "China"
+          }
+        ]
       }
     }
   },
   {
     "name": "Cypherock",
-    "url": "https://cypherock.com",
-    "image_url": "https://logo.clearbit.com/cypherock.com",
+    "url": "https://github.com/AKASHnagesh/cypherock",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Cypherock core by code refactoring, performance optimization and benchmarking. \n\nCypherock is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "An open-source hardware wallet with Shamir Secret Sharing for key management.",
+    "category": "Hardware Wallet",
     "topics": [
-      "Node",
-      "Design",
+      "Hardware Wallet",
+      "Security",
       "Bitcoin"
     ],
     "technologies": [
-      "Python",
-      "C++",
-      "JavaScript",
-      "Go"
+      "C",
+      "Rust",
+      "TypeScript"
     ],
     "years": {
-      "2023": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      },
       "2024": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 1,
@@ -1037,54 +1529,88 @@ export const getSobData = () => {
           {
             "name": "Bryan Elee",
             "project": "Extend Bitcoin blockchain support in Cypherock X1",
-            "organization": "Cypherock"
+            "organization": "Cypherock",
+            "mentor": "Rohan",
+            "university": "University of Port Harcourt",
+            "country": "Nigeria"
           }
         ]
-      }
-    },
-    "fallback_image": "https://github.com/cypherock.png"
-  },
-  {
-    "name": "Demand",
-    "url": "https://github.com/Demand",
-    "image_url": "https://github.com/demand.png",
-    "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Demand core by code refactoring, performance optimization and benchmarking. \n\nDemand is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
-    "topics": [
-      "Node",
-      "Wallets",
-      "Lightning Network",
-      "Design"
-    ],
-    "technologies": [
-      "Go",
-      "C++"
-    ],
-    "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": []
-      },
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
       },
       "2025": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
+        "num_projects": 3,
+        "projects": [
+          {
+            "name": "Rishiraj Shrivastava",
+            "project": "UI/UX Design for Bitcoin HWI & Bitcoin-Only Firmware on Cypherock X1",
+            "organization": "Cypherock",
+            "mentor": "Rohan",
+            "university": "Indian Institute of Technology Roorkee",
+            "country": "India"
+          },
+          {
+            "name": "Temiloluwa Yusuf",
+            "project": "Bitcoin HWI (Hardware Wallet Interface) for Cypherock X1 to Integrate Software Wallets like Sparrow Wallet using Cypherock SDK",
+            "organization": "Cypherock",
+            "mentor": "Rohan",
+            "university": "Ahmadu bello university",
+            "country": "Nigeria"
+          },
+          {
+            "name": "Utkarsh Maurya",
+            "project": "Bitcoin-Only Firmware for Cypherock X1 Hardware Wallet",
+            "organization": "Cypherock",
+            "mentor": "Rohan",
+            "university": "National Institute of Technology, Hamirpur",
+            "country": "India"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Demand",
+    "url": "https://github.com/demand-open-source",
+    "image_url": "https://avatars.githubusercontent.com/u/175616393",
+    "image_background_color": "#ffffff",
+    "description": "An open-source mining pool proxy for Bitcoin.",
+    "category": "Mining",
+    "topics": [
+      "Mining",
+      "Bitcoin",
+      "Pool"
+    ],
+    "technologies": [
+      "Rust"
+    ],
+    "years": {
+      "2025": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 3,
         "projects": [
           {
             "name": "Ayush Bansal",
             "project": "Add Support for Multiple Upstream",
-            "organization": "Demand"
+            "organization": "Demand",
+            "mentor": "Prisca",
+            "university": "The LNM Institute of Information Technology",
+            "country": "India"
+          },
+          {
+            "name": "Divyansh Seth",
+            "project": "Create Transaction selection Dashboard",
+            "organization": "Demand",
+            "mentor": "Prisca",
+            "university": "Indian Institute of Technology (BHU) Varanasi",
+            "country": "India"
+          },
+          {
+            "name": "Vanshul Bhatia",
+            "project": "Implement a Transparency System for Demand Pool Proxy",
+            "organization": "Demand",
+            "mentor": "Prisca",
+            "university": "Shri G. S. Institute of Technology & Science (SGSITS) Indore",
+            "country": "India"
           }
         ]
       }
@@ -1093,157 +1619,169 @@ export const getSobData = () => {
   {
     "name": "Eclair",
     "url": "https://github.com/ACINQ/eclair",
-    "image_url": "https://github.com/eclair.png",
+    "image_url": "https://avatars.githubusercontent.com/u/21256949",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Eclair core by code refactoring, performance optimization and benchmarking. \n\nEclair is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A Scala-based Lightning Network implementation by ACINQ.",
+    "category": "Lightning",
     "topics": [
-      "Cryptography",
-      "Infrastructure",
-      "P2P",
-      "Node"
+      "Lightning Network",
+      "Node",
+      "Scala"
     ],
     "technologies": [
-      "JavaScript",
-      "C++"
+      "Scala",
+      "Java"
     ],
     "years": {
+      "2022": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Goutam Verma Verma",
+            "project": "Breez Podcast Player Enhancements, Eclair Node Monitoring",
+            "organization": "Eclair",
+            "mentor": "Bastien Teinturier",
+            "university": "Devi Ahiliya University",
+            "country": "India"
+          }
+        ]
+      },
       "2023": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Mohit Kumar",
+            "project": "Make eclair-cli awesome",
+            "organization": "Eclair",
+            "mentor": "Bastien Teinturier",
+            "university": "Indian Institute of Information Technology, Nagpur",
+            "country": "India"
+          }
+        ]
       }
     }
   },
   {
     "name": "Electrs",
-    "url": "https://github.com/romanz/electrs",
-    "image_url": "https://github.com/electrs.png",
+    "url": "https://github.com/AKASHnagesh/electrs",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Electrs core by code refactoring, performance optimization and benchmarking. \n\nElectrs is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "An efficient Electrum Server implementation in Rust.",
+    "category": "Infrastructure",
     "topics": [
-      "Infrastructure",
-      "Cryptography"
+      "Electrum",
+      "Server",
+      "Bitcoin"
     ],
     "technologies": [
-      "React",
-      "JavaScript",
-      "Node.js"
+      "Rust"
     ],
     "years": {
-      "2024": {
+      "2022": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": []
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Khaled Emara",
+            "project": "Choosing a better DB for electrs",
+            "organization": "Electrs",
+            "mentor": "Roman Zeyde",
+            "university": "Ain Shams University",
+            "country": "Egypt"
+          }
+        ]
       }
     }
   },
   {
     "name": "Electrum Wallet",
-    "url": "https://github.com/spesmilo/electrum",
-    "image_url": "https://github.com/electrumwallet.png",
+    "url": "https://github.com/AKASHnagesh/electrum",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Electrum Wallet core by code refactoring, performance optimization and benchmarking. \n\nElectrum Wallet is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A lightweight Bitcoin wallet focused on speed and simplicity.",
+    "category": "Wallet",
     "topics": [
+      "Wallets",
       "Bitcoin",
-      "Lightning Network",
-      "Nostr",
-      "Infrastructure"
+      "SPV"
     ],
     "technologies": [
-      "C++",
-      "React",
-      "Node.js",
-      "TypeScript"
+      "Python"
     ],
     "years": {
       "2021": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
+        "num_projects": 2,
         "projects": [
           {
             "name": "Dhruv Joshi",
-            "project": "Implement various SIGHASH methods in Electrum wallet",
-            "organization": "Electrum Wallet"
-          }
-        ]
-      },
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
-      "2023": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": [
+            "project": "Implement various SIGHASH methods in Electrum wallet.",
+            "organization": "Electrum Wallet",
+            "mentor": "ghost43",
+            "university": "College of Engineering Pune",
+            "country": "India"
+          },
           {
-            "name": "Felix Böck",
-            "project": "Contributions to Electrum",
-            "organization": "Electrum Wallet"
+            "name": "Siddhant Chawla",
+            "project": "GUI improvements to Electrum wallet.",
+            "organization": "Electrum Wallet",
+            "mentor": "ghost43",
+            "university": "NIT Warangal",
+            "country": "India"
           }
         ]
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
       }
     }
   },
   {
-    "name": "Esplora Block Explorer",
-    "url": "https://github.com/Blockstream/esplora",
-    "image_url": "https://github.com/esplorablockexplorer.png",
+    "name": "Esplora",
+    "url": "https://github.com/AKASHnagesh/esplora",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Esplora Block Explorer core by code refactoring, performance optimization and benchmarking. \n\nEsplora Block Explorer is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A block explorer for Bitcoin and Liquid built by Blockstream.",
+    "category": "Explorer",
     "topics": [
-      "Wallets",
-      "P2P",
-      "Cryptography"
+      "Block Explorer",
+      "Bitcoin",
+      "Liquid"
     ],
     "technologies": [
-      "TypeScript",
-      "C++",
-      "React"
+      "JavaScript",
+      "Rust"
     ],
     "years": {
-      "2024": {
+      "2022": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": []
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Vinayak Sharma",
+            "project": "Exploring the Lightning Network",
+            "organization": "Esplora",
+            "mentor": "Christian Decker",
+            "university": "Shri Mata Vaishno Devi University",
+            "country": "India"
+          }
+        ]
       }
     }
   },
   {
     "name": "Eye of Satoshi",
-    "url": "https://github.com/talaia-labs/rust-teos",
-    "image_url": "https://github.com/eyeofsatoshi.png",
+    "url": "https://github.com/AKASHnagesh/eye-of-satoshi",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Eye of Satoshi core by code refactoring, performance optimization and benchmarking. \n\nEye of Satoshi is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A Lightning watchtower implementation to protect channels from malicious closures.",
+    "category": "Lightning",
     "topics": [
-      "Bitcoin",
-      "P2P",
-      "Lightning Network"
+      "Lightning Network",
+      "Watchtower",
+      "Security"
     ],
     "technologies": [
-      "Shell",
-      "Node.js",
-      "Go",
+      "Rust",
       "Python"
     ],
     "years": {
@@ -1253,67 +1791,70 @@ export const getSobData = () => {
         "projects": [
           {
             "name": "Arsalan Thoker",
-            "project": "Generalize rust-teos to support different SQL engines",
-            "organization": "Eye of Satoshi"
+            "project": "Memory outsourcing for hardware wallets, Plugin Support for lndart.clightning, Plugin Support for rust-clightnining-rpc, Generalize rust-teos to support different SQL engines, Use LND as a PayJoin client, Generalize rust-teos to support different SQL engines",
+            "organization": "Eye of Satoshi",
+            "mentor": "Sergi Delgado",
+            "university": "NIT Srinagar",
+            "country": "India"
           },
           {
-            "name": "Omer Yacine",
-            "project": "Contributions to Eye of Satoshi",
-            "organization": "Eye of Satoshi"
+            "name": "omer yacine Yacine",
+            "project": "Manual CPFP for Revault managers, Improve Payment Routing, Add Lightning as transport for rust-teos",
+            "organization": "Eye of Satoshi",
+            "mentor": "Sergi Delgado",
+            "university": "Cairo University",
+            "country": "Egypt"
           }
         ]
       },
       "2023": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
+        "num_projects": 3,
         "projects": [
           {
             "name": "Aditya Gupta",
             "project": "Generalize rust-teos to run in accountable and non-accountable modes",
-            "organization": "Eye of Satoshi"
+            "organization": "Eye of Satoshi",
+            "mentor": "Sergi Delgado",
+            "university": "Indian Institute of Technology(IIT) Roorkee",
+            "country": "India"
           },
           {
             "name": "Ayush Saxena",
             "project": "Create a web-based GUI for teosd",
-            "organization": "Eye of Satoshi"
+            "organization": "Eye of Satoshi",
+            "mentor": "Sergi Delgado",
+            "university": "Indian Institute of Information Technology, Jabalpur",
+            "country": "India"
+          },
+          {
+            "name": "Omer Yacine",
+            "project": "Generalize rust-teos to support different SQL engines",
+            "organization": "Eye of Satoshi",
+            "mentor": "Sergi Delgado",
+            "university": "Cairo University",
+            "country": "Egypt"
           }
         ]
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
       }
     }
   },
   {
     "name": "Fedimint",
-    "url": "https://fedimint.org",
-    "image_url": "https://logo.clearbit.com/fedimint.org",
+    "url": "https://github.com/fedimint/fedimint",
+    "image_url": "https://avatars.githubusercontent.com/u/100279624",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Fedimint core by code refactoring, performance optimization and benchmarking. \n\nFedimint is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A federated e-cash mint built on Bitcoin and Lightning.",
+    "category": "E-Cash",
     "topics": [
-      "P2P",
-      "Node",
-      "Nostr"
+      "Federated",
+      "E-Cash",
+      "Bitcoin"
     ],
     "technologies": [
-      "React",
-      "Rust",
-      "C++"
+      "Rust"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": []
-      },
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 2,
@@ -1321,140 +1862,146 @@ export const getSobData = () => {
           {
             "name": "Atharva Sharad Amritkar",
             "project": "Building a nix module for MiniMint",
-            "organization": "Fedimint"
+            "organization": "Fedimint",
+            "mentor": "Elsirion",
+            "university": "IIT Kharagpur",
+            "country": "India"
           },
           {
-            "name": "Manmeet Maan",
-            "project": "Contributions to Fedimint",
-            "organization": "Fedimint"
+            "name": "Manmeet Singh",
+            "project": "Graphical Wallet for MiniMint using WASM",
+            "organization": "Fedimint",
+            "mentor": "Elsirion",
+            "university": "National Institute of Technology, Kurukshetra",
+            "country": "India"
           }
         ]
       },
       "2023": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
+        "num_projects": 2,
         "projects": [
           {
             "name": "Joscha Osthoff",
             "project": "Explore improvements or alternatives to HBBFT consensus algorithm",
-            "organization": "Fedimint"
+            "organization": "Fedimint",
+            "mentor": "Eric Sirion, Justin Moon",
+            "university": "Technische Universität Berlin",
+            "country": "Germany"
           },
           {
             "name": "Leonardo Souza",
             "project": "Federate all the things!",
-            "organization": "Fedimint"
-          }
-        ]
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": [
-          {
-            "name": "Ayush Bansal",
-            "project": "Contributions to Fedimint",
-            "organization": "Fedimint"
-          }
-        ]
-      }
-    },
-    "fallback_image": "https://github.com/fedimint.png"
-  },
-  {
-    "name": "Floresta",
-    "url": "https://github.com/vinteumorg/Floresta",
-    "image_url": "https://github.com/floresta.png",
-    "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Floresta core by code refactoring, performance optimization and benchmarking. \n\nFloresta is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
-    "topics": [
-      "Nostr",
-      "Bitcoin"
-    ],
-    "technologies": [
-      "C++",
-      "JavaScript",
-      "Shell"
-    ],
-    "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": [
-          {
-            "name": "Davidson Souza",
-            "project": "Contributions to Floresta",
-            "organization": "Floresta"
+            "organization": "Fedimint",
+            "mentor": "Eric Sirion, Justin Moon",
+            "university": "University of Campinas - UNICAMP",
+            "country": "Brazil"
           }
         ]
       },
       "2024": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
+        "num_projects": 1,
         "projects": [
           {
-            "name": "Abhinav Agarwalla",
-            "project": "Improve Floresta's testing",
-            "organization": "Floresta"
-          },
-          {
-            "name": "João Leal",
-            "project": "Contributions to Floresta",
-            "organization": "Floresta"
+            "name": "Harsh Pratap Singh",
+            "project": "Write a fedimint module",
+            "organization": "Fedimint",
+            "mentor": "Justin, Shaurya",
+            "university": "Indian Institute of Technology, Kanpur",
+            "country": "India"
           }
         ]
       },
       "2025": {
         "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 2,
+        "projects": [
+          {
+            "name": "Harsh Dev Pathak",
+            "project": "Fedimint Web Wallet using WebSDK",
+            "organization": "Fedimint",
+            "mentor": "Justin Moon, Shaurya, Eric Sirion",
+            "university": "Babu Banarasi Das Engineering College",
+            "country": "India"
+          },
+          {
+            "name": "Om Swami",
+            "project": "Improving Fedimint WebSDK",
+            "organization": "Fedimint",
+            "mentor": "Justin Moon, Shaurya, Eric Sirion",
+            "university": "Indian Institute of Information Technology, Lucknow",
+            "country": "India"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Floresta",
+    "url": "https://github.com/AKASHnagesh/floresta",
+    "image_url": "https://github.com/AKASHnagesh.png",
+    "image_background_color": "#ffffff",
+    "description": "A lightweight Bitcoin full node implementation in Rust.",
+    "category": "Node",
+    "topics": [
+      "Bitcoin",
+      "Full Node",
+      "Lightweight"
+    ],
+    "technologies": [
+      "Rust"
+    ],
+    "years": {
+      "2024": {
+        "projects_url": "https://summerofbitcoin.org",
         "num_projects": 3,
-        "projects": []
+        "projects": [
+          {
+            "name": "Abhinav Agarwalla",
+            "project": "Improve Floresta's testing",
+            "organization": "Floresta",
+            "mentor": "Davidson",
+            "university": "IIT (BHU), Varanasi",
+            "country": "India"
+          },
+          {
+            "name": "Joao Gabriel Leal de Andrade Barbosa",
+            "project": "Move Floresta from async-std to tokio",
+            "organization": "Floresta",
+            "mentor": "Davidson",
+            "university": "Uninove",
+            "country": "Brazil"
+          },
+          {
+            "name": "Shashank Trivedi",
+            "project": "Move Floresta from async-std to tokio",
+            "organization": "Floresta",
+            "mentor": "Davidson",
+            "university": "Indian Institute of Technology, Roorkee",
+            "country": "India"
+          }
+        ]
       }
     }
   },
   {
     "name": "Formstr",
-    "url": "https://github.com/formstr",
-    "image_url": "https://github.com/formstr.png",
+    "url": "https://github.com/abh3po/nostr-forms",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Formstr core by code refactoring, performance optimization and benchmarking. \n\nFormstr is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A Nostr-based form builder for decentralized data collection.",
+    "category": "Nostr",
     "topics": [
-      "Bitcoin",
-      "P2P",
-      "Node"
+      "Nostr",
+      "Forms",
+      "Decentralized"
     ],
     "technologies": [
-      "C++",
-      "Node.js",
-      "React",
-      "Python"
+      "TypeScript",
+      "React"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": []
-      },
-      "2023": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
       "2025": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 1,
@@ -1462,7 +2009,10 @@ export const getSobData = () => {
           {
             "name": "Aashutosh Gandhi",
             "project": "Formstr: Ollama Integration",
-            "organization": "Formstr"
+            "organization": "Formstr",
+            "mentor": "Abhay",
+            "university": "Indian Institute of Technology Patna",
+            "country": "India"
           }
         ]
       }
@@ -1471,37 +2021,40 @@ export const getSobData = () => {
   {
     "name": "Galoy",
     "url": "https://github.com/GaloyMoney",
-    "image_url": "https://github.com/galoy.png",
+    "image_url": "https://avatars.githubusercontent.com/u/67789857",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Galoy core by code refactoring, performance optimization and benchmarking. \n\nGaloy is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "Open-source Bitcoin banking infrastructure powering the Bitcoin Beach wallet (Blink).",
+    "category": "Banking",
     "topics": [
-      "Wallets",
-      "P2P"
+      "Banking",
+      "Lightning Network",
+      "Bitcoin"
     ],
     "technologies": [
-      "Python",
-      "Go"
+      "TypeScript",
+      "Rust",
+      "GraphQL"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": []
-      },
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 2,
         "projects": [
           {
-            "name": "Siddharth Tiwari",
-            "project": "Contributions to Galoy",
-            "organization": "Galoy"
+            "name": "Mayank Modi",
+            "project": "rust-hwi improvements, Get Galoy instance running on Azure or AWS",
+            "organization": "Galoy",
+            "mentor": "Sandipan Dey",
+            "university": "IIIT Hyderabad",
+            "country": "India"
           },
           {
             "name": "Vaibhav Dixit",
-            "project": "Contributions to Galoy",
-            "organization": "Galoy"
+            "project": "Handle database migrations, Improving Coinselection in BDK, Refactor BDK Integration tests, Access tokens for the REST API, Review and test bcoin PR#811 Replace-by-fee, add feature to wallet, Proof of Reserves for Open Source Bitcoin Banking",
+            "organization": "Galoy",
+            "mentor": "Sam Peters",
+            "university": "IIITDM  Jabalpur",
+            "country": "India"
           }
         ]
       },
@@ -1512,12 +2065,40 @@ export const getSobData = () => {
           {
             "name": "Eshan Vaid",
             "project": "CLI client for Galoy Backend in Rust - Galoy CLI",
-            "organization": "Galoy"
+            "organization": "Galoy",
+            "mentor": "Sam Peters, Sandipan",
+            "university": "Indian Institute of Information Technology, Allahabad",
+            "country": "India"
           },
           {
-            "name": "Prakhar Saxena",
-            "project": "Contributions to Galoy",
-            "organization": "Galoy"
+            "name": "Siddharth Tiwari",
+            "project": "LNURL-Withdraw LN Service",
+            "organization": "Galoy",
+            "mentor": "Sam Peters, Sandipan",
+            "university": "shri vaishnav vidyapeeth vishwavidyalaya",
+            "country": "India"
+          }
+        ]
+      },
+      "2024": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 2,
+        "projects": [
+          {
+            "name": "Prakhar Agarwal",
+            "project": "Multi account feature in galoy-mobile / Blink Wallet app",
+            "organization": "Galoy",
+            "mentor": "Sandipan, Openoms",
+            "university": "IIT BHU",
+            "country": "India"
+          },
+          {
+            "name": "Rishi Kumar",
+            "project": "Optimization and Security Enhancements for Galoy/Blink",
+            "organization": "Galoy",
+            "mentor": "Kartik Shah",
+            "university": "Indian Institute of Information Technology, Kalyani",
+            "country": "India"
           }
         ]
       },
@@ -1528,12 +2109,18 @@ export const getSobData = () => {
           {
             "name": "Arunabha Dhal",
             "project": "Add AWS to Galoy-Infra",
-            "organization": "Galoy"
+            "organization": "Galoy",
+            "mentor": "Kartik, Sandipan, Justin Carter",
+            "university": "Indian Institute of Technology Indore",
+            "country": "India"
           },
           {
             "name": "Lakshya Singh",
-            "project": "Contributions to Galoy",
-            "organization": "Galoy"
+            "project": "Upgrade Bria to Bitcoin Development Kit (BDK) 1.0",
+            "organization": "Galoy",
+            "mentor": "Kartik, Sandipan, Justin Carter",
+            "university": "The LNM Institute of Information Technology",
+            "country": "India"
           }
         ]
       }
@@ -1541,35 +2128,40 @@ export const getSobData = () => {
   },
   {
     "name": "Here Comes Bitcoin",
-    "url": "https://summerofbitcoin.org",
-    "image_url": "https://github.com/herecomesbitcoin.png",
+    "url": "https://github.com/AKASHnagesh/here-comes-bitcoin",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Here Comes Bitcoin core by code refactoring, performance optimization and benchmarking. \n\nHere Comes Bitcoin is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "Creative content and puppet-based education initiatives for Bitcoin.",
+    "category": "Education",
     "topics": [
-      "Cryptography",
-      "Design"
+      "Education",
+      "Content",
+      "Bitcoin"
     ],
     "technologies": [
-      "Rust",
-      "Node.js",
-      "Go",
-      "TypeScript"
+      "Design",
+      "Content"
     ],
     "years": {
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      },
       "2024": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
+        "num_projects": 2,
         "projects": [
           {
-            "name": "Abhijay Jain",
+            "name": "Abhijay jain",
             "project": "Calling All Puppet Enthusiasts, Spiral is Looking for Creative Contributors",
-            "organization": "Here Comes Bitcoin"
+            "organization": "Here Comes Bitcoin",
+            "mentor": "Haley",
+            "university": "Indira Gandhi National Open University",
+            "country": "India"
+          },
+          {
+            "name": "Sushant Faujdar",
+            "project": "Calling All Puppet Enthusiasts, Spiral is Looking for Creative Contributors",
+            "organization": "Here Comes Bitcoin",
+            "mentor": "Haley",
+            "university": "Indian Institute of Technology, Kanpur",
+            "country": "India"
           }
         ]
       }
@@ -1577,102 +2169,128 @@ export const getSobData = () => {
   },
   {
     "name": "Hexawallet",
-    "url": "https://github.com/hexawallet",
-    "image_url": "https://github.com/hexawallet.png",
+    "url": "https://github.com/AKASHnagesh/hexawallet",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Hexawallet core by code refactoring, performance optimization and benchmarking. \n\nHexawallet is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A Bitcoin wallet with social features and multi-device support.",
+    "category": "Wallet",
     "topics": [
       "Wallets",
+      "Social",
       "Bitcoin"
     ],
     "technologies": [
-      "JavaScript",
-      "Rust",
-      "React",
-      "Go"
+      "React Native",
+      "TypeScript"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": []
-      },
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
+        "num_projects": 5,
         "projects": [
           {
             "name": "Aniket Rochwani",
             "project": "Use the hash of phone number to uniquely identify a wallet owner",
-            "organization": "Hexawallet"
+            "organization": "Hexawallet",
+            "mentor": "Anant Tapadia",
+            "university": "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
+            "country": "India"
           },
           {
             "name": "Ayomide Yusuf",
-            "project": "Bitcoin and Friends – Secure chat like interface for the interaction between wallets | Design",
-            "organization": "Hexawallet"
+            "project": "Bitcoin and Friends - Secure chat like interface for the interaction between wallets | Design",
+            "organization": "Hexawallet",
+            "mentor": "Sumaiah Khan",
+            "university": "University of Lagos",
+            "country": "Nigeria"
           },
           {
-            "name": "Jessica Jide",
-            "project": "Design contributions to Hexawallet",
-            "organization": "Hexawallet"
+            "name": "Jessica Alexandra Jide",
+            "project": "Bitcoin and Friends - Secure chat like interface for the interaction between wallets | Design",
+            "organization": "Hexawallet",
+            "mentor": "Sumaiah Khan",
+            "university": "Federal university of technology Owerri",
+            "country": "Nigeria"
+          },
+          {
+            "name": "Juhie Chandra",
+            "project": "Bitcoin and Friends - Secure chat like interface for the interaction between wallets | Design, A wallet that teaches bitcoin as you use them | Design",
+            "organization": "Hexawallet",
+            "mentor": "Sumaiah Khan",
+            "university": "Dr. B. R. Ambedkar National Institute of Technology",
+            "country": "India"
+          },
+          {
+            "name": "Vatsal Mehta",
+            "project": "Use the hash of phone number to uniquely identify a wallet owner",
+            "organization": "Hexawallet",
+            "mentor": "Pawan Paliwal",
+            "university": "The LNM Institute of Information Technology",
+            "country": "India"
           }
         ]
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
       }
     }
   },
   {
     "name": "Jam",
     "url": "https://github.com/joinmarket-webui/jam",
-    "image_url": "https://github.com/jam.png",
+    "image_url": "https://avatars.githubusercontent.com/u/100895038",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Jam core by code refactoring, performance optimization and benchmarking. \n\nJam is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A modern web UI for JoinMarket, making CoinJoin accessible.",
+    "category": "Privacy",
     "topics": [
-      "Infrastructure",
-      "Wallets",
-      "P2P"
+      "CoinJoin",
+      "Privacy",
+      "Bitcoin"
     ],
     "technologies": [
-      "Rust",
-      "Go",
+      "React",
       "JavaScript",
-      "C++"
+      "Python"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": []
-      },
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
-      "2023": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
       "2024": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
+        "num_projects": 3,
         "projects": [
           {
             "name": "Amit Kumar Prasad",
-            "project": "Coin Control for Jam",
-            "organization": "Jam"
+            "project": "\"Coin Control\" for Jam",
+            "organization": "Jam",
+            "mentor": "Thebora",
+            "university": "Chandigarh University",
+            "country": "India"
           },
           {
             "name": "Bhavesh Gupta",
             "project": "Redesign fidelity bond creation flow",
-            "organization": "Jam"
+            "organization": "Jam",
+            "mentor": "Thebora",
+            "university": "Indian Institute of Technology (BHU) Varanasi",
+            "country": "India"
+          },
+          {
+            "name": "Saksham Gupta",
+            "project": "\"Improved Scheduled Transactions\" for Jam",
+            "organization": "Jam",
+            "mentor": "Thebora",
+            "university": "Maharaja Agrasen Institute of Technology",
+            "country": "India"
+          }
+        ]
+      },
+      "2025": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Nischal Shetty",
+            "project": "Jam v2 UI",
+            "organization": "Jam",
+            "mentor": "Thebora Kompanioni",
+            "university": "AJ institute of engineering and technology",
+            "country": "India"
           }
         ]
       }
@@ -1680,60 +2298,60 @@ export const getSobData = () => {
   },
   {
     "name": "JoinMarket",
-    "url": "https://github.com/JoinMarket-Org",
-    "image_url": "https://github.com/joinmarket.png",
+    "url": "https://github.com/JoinMarket-Org/joinmarket-clientserver",
+    "image_url": "https://avatars.githubusercontent.com/u/14207068",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to JoinMarket core by code refactoring, performance optimization and benchmarking. \n\nJoinMarket is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A CoinJoin implementation for Bitcoin privacy with a maker-taker model.",
+    "category": "Privacy",
     "topics": [
-      "Wallets",
-      "P2P",
-      "Design",
-      "Infrastructure"
+      "CoinJoin",
+      "Privacy",
+      "Bitcoin"
     ],
     "technologies": [
-      "React",
       "Python"
     ],
     "years": {
       "2021": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
+        "num_projects": 2,
         "projects": [
           {
             "name": "Abhishek Anantharam",
-            "project": "Build an interactive interface for JoinMarket to enable end-users make Coinjoin transactions easily, using Flask and react.js",
-            "organization": "JoinMarket"
+            "project": "Build an interactive interface for JoinMarket to enable end-users make Coinjoin transactions easily, using Flask and react.js.",
+            "organization": "JoinMarket",
+            "mentor": "Adam Gibson",
+            "university": "Vellore Institute of Technology",
+            "country": "India"
+          },
+          {
+            "name": "Shobhitaa Barik",
+            "project": "Developing a JavaScript webapp to remotely control a JoinMarket instance.",
+            "organization": "JoinMarket",
+            "mentor": "Adam Gibson",
+            "university": "Bennett University",
+            "country": "India"
           }
         ]
-      },
-      "2023": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": []
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
       }
     }
   },
   {
     "name": "LDK",
     "url": "https://github.com/lightningdevkit",
-    "image_url": "https://github.com/ldk.png",
+    "image_url": "https://avatars.githubusercontent.com/u/49367625",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to LDK core by code refactoring, performance optimization and benchmarking. \n\nLDK is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "Lightning Dev Kit - a flexible Lightning implementation as a library.",
+    "category": "Lightning",
     "topics": [
-      "Infrastructure",
-      "Bitcoin",
-      "P2P"
+      "Lightning Network",
+      "SDK",
+      "Library"
     ],
     "technologies": [
-      "Go",
-      "Node.js"
+      "Rust",
+      "Java",
+      "Swift"
     ],
     "years": {
       "2021": {
@@ -1742,29 +2360,93 @@ export const getSobData = () => {
         "projects": [
           {
             "name": "Abhik Banerjee",
-            "project": "Enable Last Hop Hints in routing from Payer to Payee based on Lightning Invoice (Bolt 11)",
-            "organization": "LDK"
+            "project": "Enable Last Hop Hints in routing from Payer to Payee based on Lightning Invoice (Bolt 11).",
+            "organization": "LDK",
+            "mentor": "Jeffrey Czyz",
+            "university": "Netaji Subhash Engineering College",
+            "country": "India"
           },
           {
-            "name": "Shashwat Vangani",
-            "project": "Contributions to LDK",
-            "organization": "LDK"
+            "name": "Shubham Kumar",
+            "project": "Improvements to Zeus.",
+            "organization": "LDK",
+            "mentor": "Evan Kaloudis",
+            "university": "IIT Roorkee",
+            "country": "India"
           }
         ]
       },
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 2,
-        "projects": []
+        "projects": [
+          {
+            "name": "Jurvis Tan",
+            "project": "Improve Payment Routing",
+            "organization": "LDK",
+            "mentor": "Jeff Czyz",
+            "university": "University of Southern California",
+            "country": "Singapore"
+          },
+          {
+            "name": "Prakhar Saxena",
+            "project": "General codebase improvement, lnprototest in LDK",
+            "organization": "LDK",
+            "mentor": "Conor Okus",
+            "university": "Indian Institute of Technology (BHU) Varanasi",
+            "country": "India"
+          }
+        ]
       },
       "2023": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
+        "num_projects": 4,
         "projects": [
           {
             "name": "Alec Chen",
             "project": "Custom HTLC TLVs + LDK-TEOS ChannelMonitor Integration",
-            "organization": "LDK"
+            "organization": "LDK",
+            "mentor": "Conor Okus, Jeff Czyz",
+            "university": "University of Illinois at Urbana-Champaign",
+            "country": "United States"
+          },
+          {
+            "name": "Prakhar Saxena",
+            "project": "Integrate LDK into lnprototest",
+            "organization": "LDK",
+            "mentor": "Conor Okus, Jeff Czyz",
+            "university": "IIT(BHU) Varanasi",
+            "country": "India"
+          },
+          {
+            "name": "Rahul Roy",
+            "project": "LDK iOS Sample Wallet (Swift)",
+            "organization": "LDK",
+            "mentor": "Conor Okus, Jeff Czyz",
+            "university": "Kalinga Institute of Industrial Technology",
+            "country": "India"
+          },
+          {
+            "name": "Shantanu Gaikwad",
+            "project": "LSP Integration for LDK Node",
+            "organization": "LDK",
+            "mentor": "Conor Okus, Jeff Czyz",
+            "university": "College of Engineering Pune",
+            "country": "India"
+          }
+        ]
+      },
+      "2024": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Ian Slane",
+            "project": "Unified QR code support for LDK Node",
+            "organization": "LDK",
+            "mentor": "Elias",
+            "university": "Aims Community College",
+            "country": "United States"
           }
         ]
       }
@@ -1772,85 +2454,73 @@ export const getSobData = () => {
   },
   {
     "name": "LN Capital",
-    "url": "https://ln.capital",
-    "image_url": "https://logo.clearbit.com/ln.capital",
+    "url": "https://github.com/AKASHnagesh/ln-capital",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to LN Capital core by code refactoring, performance optimization and benchmarking. \n\nLN Capital is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "Tools for Lightning Network node management and design.",
+    "category": "Lightning",
     "topics": [
-      "Cryptography",
-      "Wallets"
+      "Lightning Network",
+      "Design",
+      "Node"
     ],
     "technologies": [
-      "Python",
-      "Rust",
-      "Go",
-      "React"
+      "Design",
+      "TypeScript"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
-      },
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
+        "num_projects": 2,
+        "projects": [
+          {
+            "name": "Harsh Singhal",
+            "project": "Designing Padawan Wallet | Design, Design System for Torq | Design, Rethink Payment Transaction Lists | Design, Rethinking the digital presence of Bitcoin Core | Design",
+            "organization": "LN Capital",
+            "mentor": "Henrik Skogstrøm",
+            "university": "Vellore Institute of Technology, Vellore",
+            "country": "India"
+          },
+          {
+            "name": "Leonardo Cumplido",
+            "project": "Convert non-wallet tests to use Python MiniWallet, Routing Node research and automation, Add a cool Specter plugin",
+            "organization": "LN Capital",
+            "mentor": "Henrik Skogstrøm",
+            "university": "Monterrey Institute of Technology and Higher Education",
+            "country": "Mexico"
+          }
+        ]
       }
-    },
-    "fallback_image": "https://github.com/lncapital.png"
+    }
   },
   {
     "name": "LN History",
-    "url": "https://summerofbitcoin.org",
-    "image_url": "https://github.com/lnhistory.png",
+    "url": "https://github.com/AKASHnagesh/ln-history",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to LN History core by code refactoring, performance optimization and benchmarking. \n\nLN History is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "Platform to store and analyse gossip messages of the Lightning Network.",
+    "category": "Lightning",
     "topics": [
-      "Bitcoin",
-      "Lightning Network"
+      "Lightning Network",
+      "Analysis",
+      "Gossip"
     ],
     "technologies": [
-      "Go",
-      "Node.js",
+      "Rust",
       "Python"
     ],
     "years": {
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
-      },
-      "2023": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": []
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": []
-      },
       "2025": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 1,
         "projects": [
           {
             "name": "Fabian Kraus",
-            "project": "Contributions to LN History",
-            "organization": "LN History"
+            "project": "ln-history: platform to store and analyse gossip messages of the Lightning Network",
+            "organization": "LN History",
+            "mentor": "René",
+            "university": "Technical University Berlin",
+            "country": "Germany"
           }
         ]
       }
@@ -1859,60 +2529,129 @@ export const getSobData = () => {
   {
     "name": "LND",
     "url": "https://github.com/lightningnetwork/lnd",
-    "image_url": "https://github.com/lnd.png",
+    "image_url": "https://avatars.githubusercontent.com/u/26930280",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to LND core by code refactoring, performance optimization and benchmarking. \n\nLND is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "Lightning Network Daemon - the leading Go implementation of Lightning.",
+    "category": "Lightning",
     "topics": [
-      "Wallets",
-      "Bitcoin",
-      "Nostr",
-      "Infrastructure"
+      "Lightning Network",
+      "Node",
+      "Go"
     ],
     "technologies": [
-      "TypeScript",
-      "Go",
-      "Python"
+      "Go"
     ],
     "years": {
       "2021": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
+        "num_projects": 3,
         "projects": [
           {
             "name": "Aditee Singh",
-            "project": "Implement keysend in LDK to allow lightning payments without invoices",
-            "organization": "LND"
+            "project": "Implement keysend in LDK to allow lightning payments without invoices.",
+            "organization": "LND",
+            "mentor": "Jamal James",
+            "university": "J.S.S. Academy of Technical Education",
+            "country": "India"
+          },
+          {
+            "name": "Hemanth Krishna",
+            "project": "Contributing to v14.0-beta release for LND and improvements in watchtowers.",
+            "organization": "LND",
+            "mentor": "Carla-Kirk Cohen",
+            "university": "Vellore Institute of Technology",
+            "country": "India"
+          },
+          {
+            "name": "Neha Kumari",
+            "project": "Lightning application to send and receive payments using LND nodes.",
+            "organization": "LND",
+            "mentor": "Jamal James",
+            "university": "Netaji Subhas Institute of Technology, Patna",
+            "country": "India"
+          }
+        ]
+      },
+      "2022": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 2,
+        "projects": [
+          {
+            "name": "Priyansh Rastogi",
+            "project": "Improve the LND wallet kit, Batch chain backend requests in lnd",
+            "organization": "LND",
+            "mentor": "Oliver Gugger",
+            "university": "IIIT Gwalior",
+            "country": "India"
+          },
+          {
+            "name": "Vibhav Sharma",
+            "project": "Watchtower insights, Batch chain backend requests in lnd, Improve the LND wallet kit",
+            "organization": "LND",
+            "mentor": "Andras Banki-Horvath",
+            "university": "Bennett University",
+            "country": "India"
           }
         ]
       },
       "2023": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Maureen Ononiwu",
+            "project": "Optimized Neutrino Sync",
+            "organization": "LND",
+            "mentor": "Lucas Ferreira",
+            "university": "Federal University of Technology, Owerri",
+            "country": "Nigeria"
+          }
+        ]
       },
       "2024": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": []
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Mohamed Awnallah",
+            "project": "Distributed Mission Control",
+            "organization": "LND",
+            "mentor": "Lucas, Ziggie",
+            "university": "Tanta University",
+            "country": "Egypt"
+          }
+        ]
+      },
+      "2025": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Nishant Bansal",
+            "project": "Continuous Fuzzing for LND",
+            "organization": "LND",
+            "mentor": "Ziggie, Oliver Gugger",
+            "university": "Indian Institute of Technology (BHU) Varanasi",
+            "country": "India"
+          }
+        ]
       }
     }
   },
   {
     "name": "Ledger Bitcoin App",
-    "url": "https://github.com/LedgerHQ",
-    "image_url": "https://github.com/ledgerbitcoinapp.png",
+    "url": "https://github.com/AKASHnagesh/ledger-bitcoin-app",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Ledger Bitcoin App core by code refactoring, performance optimization and benchmarking. \n\nLedger Bitcoin App is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "The Bitcoin application for Ledger hardware wallets.",
+    "category": "Hardware Wallet",
     "topics": [
-      "P2P",
-      "Infrastructure",
-      "Design"
+      "Hardware Wallet",
+      "Bitcoin",
+      "Signing"
     ],
     "technologies": [
-      "Go",
-      "Node.js",
+      "C",
       "Python"
     ],
     "years": {
@@ -1923,86 +2662,26 @@ export const getSobData = () => {
           {
             "name": "Bryan Elee",
             "project": "General purpose hot signing service for miniscript policies",
-            "organization": "Ledger Bitcoin App"
+            "organization": "Ledger Bitcoin App",
+            "mentor": "Salvatore Ingala",
+            "university": "University of Port Harcourt",
+            "country": "Nigeria"
           }
         ]
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
       }
     }
   },
   {
-    "name": "Lightning-Network",
+    "name": "Lightning Network",
     "url": "https://github.com/lightningnetwork",
-    "image_url": "https://github.com/lightningnetwork.png",
+    "image_url": "https://avatars.githubusercontent.com/u/26930280",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Lightning-Network core by code refactoring, performance optimization and benchmarking. \n\nLightning-Network is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "Research and development for the Lightning Network protocol.",
+    "category": "Lightning",
     "topics": [
-      "Design",
       "Lightning Network",
-      "Cryptography",
-      "Bitcoin"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "Go",
-      "JavaScript"
-    ],
-    "years": {
-      "2023": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      }
-    }
-  },
-  {
-    "name": "Mempool.space",
-    "url": "https://github.com/mempool",
-    "image_url": "https://github.com/mempoolspace.png",
-    "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Mempool.space core by code refactoring, performance optimization and benchmarking. \n\nMempool.space is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
-    "topics": [
-      "Wallets",
-      "Infrastructure",
-      "P2P"
-    ],
-    "technologies": [
-      "Rust",
-      "Shell",
-      "C++",
-      "Node.js"
-    ],
-    "years": {
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      }
-    }
-  },
-  {
-    "name": "Nostr Components",
-    "url": "https://summerofbitcoin.org",
-    "image_url": "https://github.com/nostrcomponents.png",
-    "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Nostr Components core by code refactoring, performance optimization and benchmarking. \n\nNostr Components is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
-    "topics": [
-      "Bitcoin",
-      "Design",
-      "Lightning Network"
+      "Research",
+      "Protocol"
     ],
     "technologies": [
       "Go",
@@ -2011,14 +2690,117 @@ export const getSobData = () => {
     "years": {
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      },
-      "2023": {
-        "projects_url": "https://summerofbitcoin.org",
         "num_projects": 4,
-        "projects": []
+        "projects": [
+          {
+            "name": "Eduardo Quintana Miranda",
+            "project": "Cross testing in libsecp256k1, Batch Verification Interface in libsecp256k1, Efficient Min Convex Cost Flow Solver for Lightning Network Payment Delivery",
+            "organization": "Lightning Network",
+            "mentor": "Rene Pickhardt",
+            "university": "University of Trieste",
+            "country": "Italy"
+          },
+          {
+            "name": "Krystal A Maughan Maughan",
+            "project": "Price of Anarchy in Selfish Routing on the Lightning Network",
+            "organization": "Lightning Network",
+            "mentor": "René Pickhardt",
+            "university": "University of Vermont",
+            "country": "United States"
+          },
+          {
+            "name": "Micky Yun Chan",
+            "project": "LN spec tests for lnprototest, lnprototest in LDK",
+            "organization": "Lightning Network",
+            "mentor": "Vincenzo Palazzo",
+            "university": "Lappeenranta-Lahti University of Technology",
+            "country": "Finland"
+          },
+          {
+            "name": "Sebastian Alscher",
+            "project": "Price of Anarchy in Selfish Routing on the Lightning Network",
+            "organization": "Lightning Network",
+            "mentor": "Rene Pickhardt",
+            "university": "Ruhr-Universität Bochum",
+            "country": "Germany"
+          }
+        ]
       },
+      "2025": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Chandra Pratap",
+            "project": "Fuzzing Lightning Implementations",
+            "organization": "Lightning Network",
+            "mentor": "Matt Morehouse",
+            "university": "Sardar Vallabhbhai National Institute of Technology, Surat",
+            "country": "India"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Mempool",
+    "url": "https://github.com/mempool/mempool",
+    "image_url": "https://avatars.githubusercontent.com/u/82188674",
+    "image_background_color": "#ffffff",
+    "description": "The Mempool Open Source Project - Bitcoin blockchain explorer and visualizer.",
+    "category": "Explorer",
+    "topics": [
+      "Block Explorer",
+      "Mempool",
+      "Bitcoin"
+    ],
+    "technologies": [
+      "TypeScript",
+      "Angular",
+      "Rust"
+    ],
+    "years": {
+      "2021": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 2,
+        "projects": [
+          {
+            "name": "Priyansh Rastogi",
+            "project": "Reviewing, testing and fixing issues in Mempool.space. Developing and integrating a Lightning Network Explorer.",
+            "organization": "Mempool",
+            "mentor": "Softsimon, Wiz",
+            "university": "IIIT Hyderabad",
+            "country": "India"
+          },
+          {
+            "name": "Rishabh Khandelwal",
+            "project": "Add a Lightning Network explorer to Mempool.space.",
+            "organization": "Mempool",
+            "mentor": "Wiz",
+            "university": "BITS Pilani",
+            "country": "India"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Nostr Components",
+    "url": "https://github.com/AKASHnagesh/nostr-components",
+    "image_url": "https://github.com/AKASHnagesh.png",
+    "image_background_color": "#ffffff",
+    "description": "Embeddable Nostr content components for any website.",
+    "category": "Nostr",
+    "topics": [
+      "Nostr",
+      "Web Components",
+      "Embed"
+    ],
+    "technologies": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "years": {
       "2025": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 1,
@@ -2026,7 +2808,10 @@ export const getSobData = () => {
           {
             "name": "Arpan Jain",
             "project": "Nostr Components: Take Nostr content beyond Nostr clients - embed it anywhere on the internet",
-            "organization": "Nostr Components"
+            "organization": "Nostr Components",
+            "mentor": "Sai",
+            "university": "IIT Jodhpur",
+            "country": "India"
           }
         ]
       }
@@ -2034,96 +2819,161 @@ export const getSobData = () => {
   },
   {
     "name": "P2Pool",
-    "url": "https://github.com/p2pool",
-    "image_url": "https://github.com/p2pool.png",
+    "url": "https://github.com/AKASHnagesh/p2pool",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to P2Pool core by code refactoring, performance optimization and benchmarking. \n\nP2Pool is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A decentralized mining pool for Bitcoin.",
+    "category": "Mining",
     "topics": [
-      "Node",
-      "Wallets"
+      "Mining",
+      "P2P",
+      "Bitcoin"
     ],
     "technologies": [
-      "Go",
+      "Rust",
       "C++"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      },
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": []
-      },
       "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": [
-          {
-            "name": "Raunak Kumar",
-            "project": "Contributions to P2Pool",
-            "organization": "P2Pool"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "name": "Padawan wallet",
-    "url": "https://summerofbitcoin.org",
-    "image_url": "https://github.com/padawanwallet.png",
-    "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Padawan wallet core by code refactoring, performance optimization and benchmarking. \n\nPadawan wallet is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
-    "topics": [
-      "Cryptography",
-      "Node",
-      "P2P",
-      "Infrastructure"
-    ],
-    "technologies": [
-      "C++",
-      "TypeScript"
-    ],
-    "years": {
-      "2022": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 3,
         "projects": [
           {
-            "name": "Autumn Domingo",
-            "project": "Designing Padawan Wallet | Design",
-            "organization": "Padawan wallet"
+            "name": "Parth Shah",
+            "project": "NS3 Simulation for P2Poolv2's Sharechain With Uncles",
+            "organization": "P2Pool",
+            "mentor": "Kulpreet Singh",
+            "university": "APSIT",
+            "country": "India"
+          },
+          {
+            "name": "Raunak Kumar",
+            "project": "Provide DoS prevention for P2Poolv2 Networking Stack",
+            "organization": "P2Pool",
+            "mentor": "Kulpreet Singh",
+            "university": "Medhavi Skills University,Sikkim,India",
+            "country": "India"
+          },
+          {
+            "name": "Suraj Naidu",
+            "project": "Build atomic swap from P2Pool to Ark",
+            "organization": "P2Pool",
+            "mentor": "Kulpreet Singh",
+            "university": "Ramaiah University of Applied Sciences",
+            "country": "India"
           }
         ]
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": []
       }
     }
   },
   {
-    "name": "Photon-SDK",
-    "url": "https://summerofbitcoin.org",
-    "image_url": "https://github.com/photonsdk.png",
+    "name": "Padawan Wallet",
+    "url": "https://github.com/AKASHnagesh/padawan-wallet",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Photon-SDK core by code refactoring, performance optimization and benchmarking. \n\nPhoton-SDK is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "An educational Bitcoin wallet built to teach testnet transactions.",
+    "category": "Wallet",
     "topics": [
-      "Node",
-      "Design",
-      "P2P",
-      "Lightning Network"
+      "Wallets",
+      "Education",
+      "Bitcoin"
     ],
     "technologies": [
-      "C++",
-      "Rust",
-      "React"
+      "Kotlin",
+      "Android"
+    ],
+    "years": {
+      "2021": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 2,
+        "projects": [
+          {
+            "name": "Mohit Bhat",
+            "project": "Improvements to Padawan wallet.",
+            "organization": "Padawan Wallet",
+            "mentor": "Thunderbiscuit",
+            "university": "Bennett University",
+            "country": "India"
+          },
+          {
+            "name": "Sunidhi Sharma",
+            "project": "Improvements to Padawan wallet.",
+            "organization": "Padawan Wallet",
+            "mentor": "Thunderbiscuit",
+            "university": "LNMIIT Jaipur",
+            "country": "India"
+          }
+        ]
+      },
+      "2022": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 4,
+        "projects": [
+          {
+            "name": "Autumn Domingo",
+            "project": "Designing Padawan Wallet | Design",
+            "organization": "Padawan Wallet",
+            "mentor": "Stephen DeLorme",
+            "university": "NA",
+            "country": "United States"
+          },
+          {
+            "name": "Himanshu Goel",
+            "project": "Designing Padawan Wallet | Design",
+            "organization": "Padawan Wallet",
+            "mentor": "Stephen DeLorme",
+            "university": "Maharaja Surajmal Institute of Technology",
+            "country": "India"
+          },
+          {
+            "name": "Precious Enyi",
+            "project": "Designing Padawan Wallet | Design",
+            "organization": "Padawan Wallet",
+            "mentor": "Stephen DeLorme, Christoph Ono",
+            "university": "Federal University of Technology, Owerri",
+            "country": "Nigeria"
+          },
+          {
+            "name": "Yetong Tang Tang",
+            "project": "Build advanced bitcoin features on Padawan Wallet",
+            "organization": "Padawan Wallet",
+            "mentor": "thunderbiscuit",
+            "university": "NUS",
+            "country": "Singapore"
+          }
+        ]
+      },
+      "2023": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Prakhar Agarwal",
+            "project": "Advanced bitcoin features on Padawan Wallet",
+            "organization": "Padawan Wallet",
+            "mentor": "thunderbiscuit",
+            "university": "IIT BHU",
+            "country": "India"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Photon SDK",
+    "url": "https://github.com/AKASHnagesh/photon-sdk",
+    "image_url": "https://github.com/AKASHnagesh.png",
+    "image_background_color": "#ffffff",
+    "description": "A React Native SDK for Bitcoin wallet integration.",
+    "category": "SDK",
+    "topics": [
+      "Mobile",
+      "SDK",
+      "Bitcoin"
+    ],
+    "technologies": [
+      "React Native",
+      "JavaScript"
     ],
     "years": {
       "2021": {
@@ -2132,8 +2982,11 @@ export const getSobData = () => {
         "projects": [
           {
             "name": "Aman Gupta",
-            "project": "Implement a react native library in Photon-SDK based on Bitcoin-Wallet-UI kit",
-            "organization": "Photon-SDK"
+            "project": "Implement a react native library in Photon-SDK based on Bitcoin-Wallet-UI kit.",
+            "organization": "Photon SDK",
+            "mentor": "Tankred Hase",
+            "university": "IIIT Sonepat",
+            "country": "India"
           }
         ]
       }
@@ -2141,27 +2994,20 @@ export const getSobData = () => {
   },
   {
     "name": "Pyasic",
-    "url": "https://github.com/UpstreamData/pyasic",
-    "image_url": "https://github.com/pyasic.png",
+    "url": "https://github.com/AKASHnagesh/pyasic",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Pyasic core by code refactoring, performance optimization and benchmarking. \n\nPyasic is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A Python library for interacting with ASIC Bitcoin miners.",
+    "category": "Mining",
     "topics": [
-      "Node",
-      "Cryptography",
-      "Wallets"
+      "Mining",
+      "ASIC",
+      "Bitcoin"
     ],
     "technologies": [
-      "Python",
-      "Rust",
-      "C++"
+      "Python"
     ],
     "years": {
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": []
-      },
       "2024": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 2,
@@ -2169,108 +3015,183 @@ export const getSobData = () => {
           {
             "name": "Abhishek Patidar",
             "project": "Add firmware update functionality",
-            "organization": "Pyasic"
+            "organization": "Pyasic",
+            "mentor": "Brett",
+            "university": "Shri Govindram Seksaria Institute of Technology and Science, Indore, Madhya Pradesh",
+            "country": "India"
           },
           {
             "name": "Temiloluwa Yusuf",
-            "project": "Contributions to Pyasic",
-            "organization": "Pyasic"
+            "project": "Add standardized pool metrics",
+            "organization": "Pyasic",
+            "mentor": "Brett",
+            "university": "Ahmadu Bello University",
+            "country": "Nigeria"
           }
         ]
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
       }
     }
   },
   {
     "name": "RTL",
     "url": "https://github.com/Ride-The-Lightning/RTL",
-    "image_url": "https://github.com/rtl.png",
+    "image_url": "https://avatars.githubusercontent.com/u/51054708",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to RTL core by code refactoring, performance optimization and benchmarking. \n\nRTL is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "Ride The Lightning - a full-function web UI for managing Lightning nodes.",
+    "category": "Lightning",
     "topics": [
-      "Bitcoin",
-      "Node",
-      "Design"
+      "Lightning Network",
+      "Node Management",
+      "UI"
     ],
     "technologies": [
       "TypeScript",
-      "React"
+      "Angular"
     ],
     "years": {
       "2021": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Shashank Karmakar",
+            "project": "Adding enhanced logger, supporting CPFP (child-pays-for-parent) feature and BOLT12 in RTL.",
+            "organization": "RTL",
+            "mentor": "Shahana Farooqui",
+            "university": "Bharati Vidyapeeth Pune",
+            "country": "India"
+          }
+        ]
+      },
+      "2022": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Sanjay Singh Rajpoot",
+            "project": "RTL-Quickpay Browser extension, Review and test bcoin PR#811 Replace-by-fee, add feature to wallet, WebLN Support, Test Automation",
+            "organization": "RTL",
+            "mentor": "Shahana Farooqui",
+            "university": "Institute of Engineering & Technology, DAVV",
+            "country": "India"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Revault",
+    "url": "https://github.com/AKASHnagesh/revault",
+    "image_url": "https://github.com/AKASHnagesh.png",
+    "image_background_color": "#ffffff",
+    "description": "A multi-party vault architecture for Bitcoin custody using covenants.",
+    "category": "Custody",
+    "topics": [
+      "Custody",
+      "Vault",
+      "Bitcoin"
+    ],
+    "technologies": [
+      "Rust",
+      "Python"
+    ],
+    "years": {
+      "2021": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 2,
+        "projects": [
+          {
+            "name": "Shubham Samrat",
+            "project": "Rust implementation of the Revault protocol.",
+            "organization": "Revault",
+            "mentor": "Antoine Poinsot",
+            "university": "IIT BHU",
+            "country": "India"
+          },
+          {
+            "name": "Vaibhav Garg",
+            "project": "Rust implementation of the Revault protocol.",
+            "organization": "Revault",
+            "mentor": "Antoine Poinsot (Darosior)",
+            "university": "Delhi Technological University",
+            "country": "India"
+          }
+        ]
       }
     }
   },
   {
     "name": "Robosats",
-    "url": "https://learn.robosats.com",
-    "image_url": "https://logo.clearbit.com/learn.robosats.com",
+    "url": "https://github.com/RoboSats/robosats",
+    "image_url": "https://avatars.githubusercontent.com/u/100270503",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Robosats core by code refactoring, performance optimization and benchmarking. \n\nRobosats is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A peer-to-peer Bitcoin exchange over the Lightning Network.",
+    "category": "Exchange",
     "topics": [
-      "Infrastructure",
-      "Nostr"
+      "P2P",
+      "Exchange",
+      "Lightning Network"
     ],
     "technologies": [
-      "React",
-      "Shell"
+      "Python",
+      "JavaScript",
+      "Rust"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      },
       "2024": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
+        "num_projects": 4,
         "projects": [
           {
             "name": "Aarav Mehta",
             "project": "Super private P2P onchain pipeline for RoboSats",
-            "organization": "Robosats"
+            "organization": "Robosats",
+            "mentor": "Reckless",
+            "university": "IIT (BHU) Varanasi",
+            "country": "India"
           },
           {
             "name": "Amit Panwar",
             "project": "RoboSats torified desktop app (Windows / MacOS / Linux)",
-            "organization": "Robosats"
+            "organization": "Robosats",
+            "mentor": "Reckless",
+            "university": "Indian institute of information technology jabalpur",
+            "country": "India"
+          },
+          {
+            "name": "Felix Boeck",
+            "project": "Super private P2P onchain pipeline for RoboSats",
+            "organization": "Robosats",
+            "mentor": "Reckless",
+            "university": "42 Heilbronn",
+            "country": "Germany"
+          },
+          {
+            "name": "Sahil Mandi",
+            "project": "Let's make RoboSats pretty (UI/UX design)",
+            "organization": "Robosats",
+            "mentor": "Reckless",
+            "university": "Indian Institute of Information Technology, Nagpur",
+            "country": "India"
           }
         ]
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": []
       }
-    },
-    "fallback_image": "https://github.com/robosats.png"
+    }
   },
   {
-    "name": "Rust miniscript",
+    "name": "Rust Miniscript",
     "url": "https://github.com/rust-bitcoin/rust-miniscript",
-    "image_url": "https://github.com/rustminiscript.png",
+    "image_url": "https://avatars.githubusercontent.com/u/43224899",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Rust miniscript core by code refactoring, performance optimization and benchmarking. \n\nRust miniscript is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "Miniscript implementation in Rust for composable Bitcoin script policies.",
+    "category": "Library",
     "topics": [
-      "Lightning Network",
-      "P2P",
-      "Bitcoin",
-      "Cryptography"
+      "Miniscript",
+      "Bitcoin Script",
+      "Rust"
     ],
     "technologies": [
-      "C++",
-      "JavaScript",
-      "React"
+      "Rust"
     ],
     "years": {
       "2021": {
@@ -2279,8 +3200,11 @@ export const getSobData = () => {
         "projects": [
           {
             "name": "Aman Rojjha",
-            "project": "Add support for Taproot in rust-miniscript library",
-            "organization": "Rust miniscript"
+            "project": "Add support for Taproot in rust-miniscript library.",
+            "organization": "Rust Miniscript",
+            "mentor": "Sanket Kanjalkar",
+            "university": "IIIT Hyderabad",
+            "country": "India"
           }
         ]
       },
@@ -2290,65 +3214,82 @@ export const getSobData = () => {
         "projects": [
           {
             "name": "Aman Kumar Kashyap",
-            "project": "Tapscript Compiler in miniscript",
-            "organization": "Rust miniscript"
+            "project": "Bitcoin-s multipeer neutrino, Price of Anarchy in Selfish Routing on the Lightning Network, Access tokens for the REST API, Tapscript Compiler in miniscript",
+            "organization": "Rust Miniscript",
+            "mentor": "Sanket Kanjalkar",
+            "university": "IIIT Hyderabad",
+            "country": "India"
           }
         ]
       },
       "2023": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
+        "num_projects": 3,
         "projects": [
           {
             "name": "Adidev Bhattacharya",
             "project": "Implement FSChaCha20 in rust bitcoin",
-            "organization": "Rust miniscript"
+            "organization": "Rust Miniscript",
+            "mentor": "Sanket Kanjalkar, stratospher",
+            "university": "Indian Institute of Technology, Kharagpur",
+            "country": "India"
           },
           {
             "name": "Harshil Jani",
             "project": "Key availability-based spend planning in rust-miniscript",
-            "organization": "Rust miniscript"
+            "organization": "Rust Miniscript",
+            "mentor": "Sanket Kanjalkar, stratospher",
+            "university": "NIT Surat",
+            "country": "India"
+          },
+          {
+            "name": "Subhradeep Chakraborty",
+            "project": "Implementation of BIP370(psbtv2) in rust-bitcoin",
+            "organization": "Rust Miniscript",
+            "mentor": "Sanket Kanjalkar, stratospher",
+            "university": "Jalpaiguri Government Engineering College",
+            "country": "India"
           }
         ]
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
       }
     }
   },
   {
     "name": "Saving Satoshi",
-    "url": "https://github.com/saving-satoshi",
-    "image_url": "https://github.com/savingsatoshi.png",
+    "url": "https://github.com/AKASHnagesh/saving-satoshi",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Saving Satoshi core by code refactoring, performance optimization and benchmarking. \n\nSaving Satoshi is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "An educational Bitcoin RPG game to teach Bitcoin concepts.",
+    "category": "Education",
     "topics": [
-      "P2P",
-      "Cryptography"
+      "Education",
+      "Gaming",
+      "Bitcoin"
     ],
     "technologies": [
-      "C++",
-      "Go",
-      "Python",
-      "TypeScript"
+      "TypeScript",
+      "React"
     ],
     "years": {
-      "2021": {
+      "2025": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
-      },
-      "2023": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
+        "num_projects": 2,
         "projects": [
           {
-            "name": "Vinayak Sharma",
-            "project": "Contributions to Saving Satoshi",
-            "organization": "Saving Satoshi"
+            "name": "Nandini Arora",
+            "project": "Saving Satoshi - An educational bitcoin RPG",
+            "organization": "Saving Satoshi",
+            "mentor": "Deeksha , Lee",
+            "university": "IIT BHU, Varanasi",
+            "country": "India"
+          },
+          {
+            "name": "Nandini Arora",
+            "project": "Saving Satoshi - An educational bitcoin RPG",
+            "organization": "Saving Satoshi",
+            "mentor": "Deeksha , Lee",
+            "university": "IIT BHU, Varanasi",
+            "country": "India"
           }
         ]
       }
@@ -2356,94 +3297,135 @@ export const getSobData = () => {
   },
   {
     "name": "SeedSigner",
-    "url": "https://seedsigner.com",
-    "image_url": "https://logo.clearbit.com/seedsigner.com",
+    "url": "https://github.com/SeedSigner/seedsigner",
+    "image_url": "https://avatars.githubusercontent.com/u/82068866",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to SeedSigner core by code refactoring, performance optimization and benchmarking. \n\nSeedSigner is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "An open-source, air-gapped DIY Bitcoin signing device using Raspberry Pi.",
+    "category": "Hardware Wallet",
     "topics": [
-      "P2P",
-      "Nostr",
-      "Cryptography"
+      "Signing",
+      "Air-gapped",
+      "Bitcoin"
     ],
     "technologies": [
-      "Shell",
-      "React",
-      "Node.js",
-      "JavaScript"
+      "Python",
+      "MicroPython"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": []
-      },
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": []
-      },
       "2025": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
+        "num_projects": 7,
         "projects": [
           {
             "name": "Abhijit Saha",
             "project": "SeedSigner Enhancement - Add Support for BIP-39 Passphrase Accented Characters",
-            "organization": "SeedSigner"
+            "organization": "SeedSigner",
+            "mentor": "Ace, Keith Mukai",
+            "university": "Motilal Nehru National Institute of Technology",
+            "country": "India"
           },
           {
             "name": "Advait Gaur",
             "project": "SeedSigner Enhancement - SeedXOR",
-            "organization": "SeedSigner"
+            "organization": "SeedSigner",
+            "mentor": "Ace, Keith Mukai",
+            "university": "IIT Jodhpur",
+            "country": "India"
+          },
+          {
+            "name": "Chaitanya Keyal",
+            "project": "Update SeedSigner BIP-85 implementation",
+            "organization": "SeedSigner",
+            "mentor": "Ace, Keith Mukai",
+            "university": "Birla Institute of Technology and Science, Pilani - Hyderabad Campus",
+            "country": "India"
+          },
+          {
+            "name": "Fazle Rabbi Ferdaus",
+            "project": "Code Cleanup for SeedSigner Loading Screens",
+            "organization": "SeedSigner",
+            "mentor": "Ace, Keith Mukai",
+            "university": "Maharishi International University",
+            "country": "United States"
+          },
+          {
+            "name": "Nitish Itankar",
+            "project": "SeedSigner Enhancement - Create Seed with Coinflips",
+            "organization": "SeedSigner",
+            "mentor": "Ace, Keith Mukai",
+            "university": "Birla Institute of Technology and Science, Pilani",
+            "country": "India"
+          },
+          {
+            "name": "Samar Singh Randhawa",
+            "project": "Create SeedSigner User Guide",
+            "organization": "SeedSigner",
+            "mentor": "Ace, Keith Mukai",
+            "university": "Indian Institute of Technology (BHU) Varanasi",
+            "country": "India"
+          },
+          {
+            "name": "Tanveer Ansari",
+            "project": "SeedSigner Enhancement - Silent Payments BIP-352",
+            "organization": "SeedSigner",
+            "mentor": "Ace, Keith Mukai",
+            "university": "Aliah University",
+            "country": "India"
           }
         ]
       }
-    },
-    "fallback_image": "https://github.com/seedsigner.png"
+    }
   },
   {
     "name": "Shopstr",
-    "url": "https://github.com/Shopstr",
-    "image_url": "https://github.com/shopstr.png",
+    "url": "https://github.com/AKASHnagesh/shopstr",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Shopstr core by code refactoring, performance optimization and benchmarking. \n\nShopstr is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A Nostr-based marketplace for Bitcoin commerce.",
+    "category": "Commerce",
     "topics": [
-      "Bitcoin",
-      "P2P",
-      "Lightning Network",
-      "Infrastructure"
+      "Nostr",
+      "Commerce",
+      "Bitcoin"
     ],
     "technologies": [
-      "Go",
-      "Node.js"
+      "TypeScript",
+      "React"
     ],
     "years": {
-      "2023": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
       "2024": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 1,
         "projects": [
           {
             "name": "Wellington Maina",
-            "project": "Contributions to Shopstr",
-            "organization": "Shopstr"
+            "project": "Shopstr nodeless merchant",
+            "organization": "Shopstr",
+            "mentor": "Calvadev",
+            "university": "Kca University",
+            "country": "Kenya"
           }
         ]
       },
       "2025": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
+        "num_projects": 2,
         "projects": [
           {
             "name": "Gautam Manchandani",
-            "project": "Contributions to Shopstr",
-            "organization": "Shopstr"
+            "project": "Payment Escrow and Processing",
+            "organization": "Shopstr",
+            "mentor": "Calvadev",
+            "university": "Birla Institute of Technology & Science, Pilani Campus",
+            "country": "India"
+          },
+          {
+            "name": "Nitish Jha",
+            "project": "BOLT 12 and Greenlight Integration",
+            "organization": "Shopstr",
+            "mentor": "Calvadev",
+            "university": "Starex University",
+            "country": "India"
           }
         ]
       }
@@ -2451,151 +3433,150 @@ export const getSobData = () => {
   },
   {
     "name": "Specter Desktop",
-    "url": "https://github.com/cryptoadvance/specter-desktop",
-    "image_url": "https://github.com/specterdesktop.png",
+    "url": "https://github.com/AKASHnagesh/specter",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Specter Desktop core by code refactoring, performance optimization and benchmarking. \n\nSpecter Desktop is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A desktop GUI for Bitcoin Core with multisig and hardware wallet support.",
+    "category": "Wallet",
     "topics": [
-      "Cryptography",
-      "P2P",
-      "Wallets"
+      "Multisig",
+      "Hardware Wallet",
+      "Bitcoin"
     ],
     "technologies": [
-      "Rust",
-      "Node.js"
+      "Python",
+      "JavaScript"
     ],
     "years": {
       "2021": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
+        "num_projects": 2,
         "projects": [
           {
             "name": "Hani Mohammed",
-            "project": "CLI improvements for Specter Desktop",
-            "organization": "Specter Desktop"
+            "project": "CLI improvements for Specter Desktop.",
+            "organization": "Specter Desktop",
+            "mentor": "Ben Kaufman",
+            "university": "IIIT Sri City",
+            "country": "India"
+          },
+          {
+            "name": "Tushar Singla",
+            "project": "CLI improvements for Specter Desktop.",
+            "organization": "Specter Desktop",
+            "mentor": "Ben Kaufman",
+            "university": "IIT Kanpur",
+            "country": "India"
           }
         ]
       },
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
+        "num_projects": 4,
         "projects": [
           {
             "name": "Ankur Patil",
-            "project": "Unit test automation framework for Bitcoin wallet",
-            "organization": "Specter Desktop"
+            "project": "Unit test automation framework for Bitcoin wallet, Test Automation, Exploring the Lightning Network, Make payment transactions smart with structured metadata, Access tokens for the REST API, Fix frontend-related issues and improve the overall design, Access tokens for the REST API",
+            "organization": "Specter Desktop",
+            "mentor": "Kim Neunert",
+            "university": "IIT BHU Varanasi",
+            "country": "India"
+          },
+          {
+            "name": "Harshit Varma",
+            "project": "Spotbit Specter plugin",
+            "organization": "Specter Desktop",
+            "mentor": "Kim, Manolis",
+            "university": "Amrita Vishwa Vidyapeetham",
+            "country": "India"
+          },
+          {
+            "name": "Shlok Pandey",
+            "project": "Access tokens for the REST API, Make payment transactions smart with structured metadata, Bring the Alby Browser Wallet to Mobile, Foundations of Open Source Development, Hexa Wallet - Split bill, split expenses, Packaging new applications into CADR, Loans plugin, Add a cool Specter plugin",
+            "organization": "Specter Desktop",
+            "mentor": "Kim, Manolis"
+          },
+          {
+            "name": "yogendra sankhla Sankhla",
+            "project": "Access tokens for the REST API, Loans plugin, Warden Specter plugin",
+            "organization": "Specter Desktop",
+            "mentor": "K9ert and Manolis",
+            "university": "BITS-PILANI goa campus",
+            "country": "India"
           }
         ]
-      },
-      "2023": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": []
-      }
-    }
-  },
-  {
-    "name": "Stratum Mining",
-    "url": "https://github.com/stratum-mining",
-    "image_url": "https://github.com/stratummining.png",
-    "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Stratum Mining core by code refactoring, performance optimization and benchmarking. \n\nStratum Mining is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
-    "topics": [
-      "Design",
-      "Wallets",
-      "P2P",
-      "Bitcoin"
-    ],
-    "technologies": [
-      "Node.js",
-      "Shell"
-    ],
-    "years": {
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
       }
     }
   },
   {
     "name": "StratumV2",
     "url": "https://github.com/stratum-mining/stratum",
-    "image_url": "https://github.com/stratumv2.png",
+    "image_url": "https://avatars.githubusercontent.com/u/85513848",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to StratumV2 core by code refactoring, performance optimization and benchmarking. \n\nStratumV2 is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "The next-generation mining protocol for Bitcoin.",
+    "category": "Mining",
     "topics": [
-      "Infrastructure",
-      "Lightning Network",
-      "Design",
-      "P2P"
+      "Mining",
+      "Protocol",
+      "Bitcoin"
     ],
     "technologies": [
-      "Shell",
-      "React",
-      "Rust",
-      "Python"
+      "Rust"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
-        "projects": []
-      },
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 1,
         "projects": [
           {
             "name": "Lorenzo Bonazzi",
-            "project": "Contributions to Stratum V2",
-            "organization": "StratumV2"
+            "project": "Improve examples and documentation, General codebase improvement, Explore Coinbase Negotiator role",
+            "organization": "StratumV2",
+            "mentor": "Fi3",
+            "university": "Università degli Sutdi di Firenze",
+            "country": "Italy"
           }
         ]
       },
       "2023": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
+        "num_projects": 2,
         "projects": [
           {
             "name": "Lorenzo Bottelli",
             "project": "Add Sv1 support to message-generator",
-            "organization": "StratumV2"
+            "organization": "StratumV2",
+            "mentor": "Fi3",
+            "university": "Politecnico di Milano",
+            "country": "Italy"
+          },
+          {
+            "name": "Prisca Maduka",
+            "project": "Add benchmarks",
+            "organization": "StratumV2",
+            "mentor": "Fi3",
+            "university": "University of Benin, Benin city",
+            "country": "Nigeria"
           }
         ]
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
       }
     }
   },
   {
     "name": "Utreexo",
-    "url": "https://github.com/utreexo",
-    "image_url": "https://github.com/utreexo.png",
+    "url": "https://github.com/mit-dci/utreexo",
+    "image_url": "https://avatars.githubusercontent.com/u/17363734",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Utreexo core by code refactoring, performance optimization and benchmarking. \n\nUtreexo is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A hash-based dynamic accumulator for Bitcoin UTXO set compression.",
+    "category": "Core",
     "topics": [
-      "Wallets",
-      "Design",
-      "Bitcoin",
-      "Node"
+      "UTXO",
+      "Accumulator",
+      "Bitcoin"
     ],
     "technologies": [
-      "JavaScript",
       "Go",
-      "TypeScript"
+      "Rust"
     ],
     "years": {
       "2021": {
@@ -2604,61 +3585,105 @@ export const getSobData = () => {
         "projects": [
           {
             "name": "Aarush Bhat",
-            "project": "Improvements to utreexo",
-            "organization": "Utreexo"
+            "project": "Improvements to utreexo.",
+            "organization": "Utreexo",
+            "mentor": "Calvin Kim",
+            "university": "Vellore Institute of Technology",
+            "country": "India"
           },
           {
             "name": "Dipto Chakrabarty",
-            "project": "Reviewing, testing and fixing issues in Utreexo project",
-            "organization": "Utreexo"
+            "project": "Reviewing, testing and fixing issues in Utreexo project.",
+            "organization": "Utreexo",
+            "mentor": "Calvin Kim",
+            "university": "Vellore Institute of Technology",
+            "country": "India"
           }
         ]
       },
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
+        "num_projects": 4,
         "projects": [
           {
             "name": "Aditya Gite",
             "project": "Visualize Utreexo Algorithms",
-            "organization": "Utreexo"
+            "organization": "Utreexo",
+            "mentor": "Calvin Kim",
+            "university": "IIT Roorkee",
+            "country": "India"
           },
           {
             "name": "Andreas Kouloumos",
             "project": "Transaction Conflicts in simulaterawtransaction, Add Benchmarks to the libutreexo library",
-            "organization": "Utreexo"
+            "organization": "Utreexo",
+            "mentor": "Calvin Kim",
+            "university": "National Technical University of Athens",
+            "country": "Greece"
+          },
+          {
+            "name": "Davison Souza",
+            "project": "Bitcoin Core - Functional test for coin selection, Batch Verification Interface in libsecp256k1, Rust Utreexo library",
+            "organization": "Utreexo",
+            "mentor": "Calvin Kim",
+            "university": "Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas Gerais",
+            "country": "Brazil"
+          },
+          {
+            "name": "Samay Kothari",
+            "project": "Implement downloading blocks from multiple peers in utreexod/btcd, Improve Payment Routing, Mempool.space integration in BDK",
+            "organization": "Utreexo",
+            "mentor": "Calvin Kim",
+            "university": "International Institute of Information Technology, Hyderabad",
+            "country": "India"
           }
         ]
       },
-      "2023": {
+      "2024": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 1,
-        "projects": []
+        "projects": [
+          {
+            "name": "Njokom Alain Junior",
+            "project": "Implement new getcfilters message for utreexo roots",
+            "organization": "Utreexo",
+            "mentor": "Calvin",
+            "university": "University of Bamenda",
+            "country": "Cameroon"
+          }
+        ]
       }
     }
   },
   {
     "name": "VLS",
-    "url": "https://summerofbitcoin.org",
-    "image_url": "https://github.com/vls.png",
+    "url": "https://github.com/AKASHnagesh/vls",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to VLS core by code refactoring, performance optimization and benchmarking. \n\nVLS is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "Validating Lightning Signer - a secure remote signer for Lightning nodes.",
+    "category": "Lightning",
     "topics": [
-      "Bitcoin",
-      "Cryptography",
-      "Infrastructure",
-      "P2P"
+      "Lightning Network",
+      "Signing",
+      "Security"
     ],
     "technologies": [
-      "Rust",
-      "C++"
+      "Rust"
     ],
     "years": {
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Shantanu Gaikwad",
+            "project": "Embedded Validating Lightning Signer Demo, UTXO Set Oracle",
+            "organization": "VLS",
+            "mentor": "Ken Sedgwic, Devrandom",
+            "university": "College of Engineering Pune",
+            "country": "India"
+          }
+        ]
       },
       "2023": {
         "projects_url": "https://summerofbitcoin.org",
@@ -2667,53 +3692,10 @@ export const getSobData = () => {
           {
             "name": "Lakshya Singh",
             "project": "VLS Performance Tuning",
-            "organization": "VLS"
-          }
-        ]
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      }
-    }
-  },
-  {
-    "name": "Zeus",
-    "url": "https://github.com/ZeusLN",
-    "image_url": "https://github.com/zeus.png",
-    "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to Zeus core by code refactoring, performance optimization and benchmarking. \n\nZeus is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
-    "topics": [
-      "Nostr",
-      "Node"
-    ],
-    "technologies": [
-      "JavaScript",
-      "React",
-      "Python"
-    ],
-    "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": [
-          {
-            "name": "Shubham Kumar",
-            "project": "Contributions to Zeus",
-            "organization": "Zeus"
-          }
-        ]
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": [
-          {
-            "name": "Ajeet Tiwari",
-            "project": "Activity CSV Report Export Feature",
-            "organization": "Zeus"
+            "organization": "VLS",
+            "mentor": "Devrandom, Ken Sedgwic",
+            "university": "Indian Institute of Technology BHU Varanasi",
+            "country": "India"
           }
         ]
       },
@@ -2722,9 +3704,75 @@ export const getSobData = () => {
         "num_projects": 1,
         "projects": [
           {
-            "name": "Ajay Sehwal",
+            "name": "Siva Sathyaseelan D N",
+            "project": "VLS Test Coverage Improvement",
+            "organization": "VLS",
+            "mentor": "Devrandom, Jack Ronaldi, Lakshay",
+            "university": "Indian Institute of Technology (BHU) Varanasi",
+            "country": "India"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Zeus",
+    "url": "https://github.com/AKASHnagesh/zeus",
+    "image_url": "https://github.com/AKASHnagesh.png",
+    "image_background_color": "#ffffff",
+    "description": "A mobile Bitcoin and Lightning wallet and node manager.",
+    "category": "Wallet",
+    "topics": [
+      "Lightning Network",
+      "Mobile",
+      "Wallets"
+    ],
+    "technologies": [
+      "React Native",
+      "TypeScript"
+    ],
+    "years": {
+      "2024": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Ajeet Tiwari",
+            "project": "Activity CSV Report Export Feature",
+            "organization": "Zeus",
+            "mentor": "Shubham, Evan",
+            "university": "IIITDM Jabalpur",
+            "country": "India"
+          }
+        ]
+      },
+      "2025": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 3,
+        "projects": [
+          {
+            "name": "Ajay .",
             "project": "View Connected and Disconnected Peers in Zeus",
-            "organization": "Zeus"
+            "organization": "Zeus",
+            "mentor": "Evan Kaloudis, Shubham Kumar",
+            "university": "Indira Gandhi National Open University",
+            "country": "India"
+          },
+          {
+            "name": "Devi Charan Chitluri",
+            "project": "Extending Message Signing & Verification with On-Chain Address Keys",
+            "organization": "Zeus",
+            "mentor": "Evan Kaloudis, Shubham Kumar",
+            "university": "BITS Pilani",
+            "country": "India"
+          },
+          {
+            "name": "Khushal A",
+            "project": "Fiat Currency Toggle in Invoice Creation",
+            "organization": "Zeus",
+            "mentor": "Evan Kaloudis, Shubham Kumar",
+            "university": "Visvesvaraya Technological University",
+            "country": "India"
           }
         ]
       }
@@ -2732,20 +3780,19 @@ export const getSobData = () => {
   },
   {
     "name": "bcoin",
-    "url": "https://github.com/bcoin-org",
-    "image_url": "https://github.com/bcoin.png",
+    "url": "https://github.com/bcoin-org/bcoin",
+    "image_url": "https://avatars.githubusercontent.com/u/22380064",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to bcoin core by code refactoring, performance optimization and benchmarking. \n\nbcoin is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A full node Bitcoin implementation in JavaScript/Node.js.",
+    "category": "Node",
     "topics": [
-      "Wallets",
-      "P2P",
-      "Cryptography",
-      "Design"
+      "Bitcoin",
+      "Full Node",
+      "JavaScript"
     ],
     "technologies": [
-      "Go",
-      "JavaScript"
+      "JavaScript",
+      "Node.js"
     ],
     "years": {
       "2021": {
@@ -2754,109 +3801,189 @@ export const getSobData = () => {
         "projects": [
           {
             "name": "Pradyuman Verma",
-            "project": "Improvements to bcoin project in areas of test coverage, prune node services",
-            "organization": "bcoin"
+            "project": "Improvements to bcoin project in areas of test coverage, prune node services, compact block filters and BIP49 and BIP84 implementation.",
+            "organization": "bcoin",
+            "mentor": "Matthew Zipkin",
+            "university": "IIT Roorkee",
+            "country": "India"
           },
           {
             "name": "Raj Maheshwari",
-            "project": "Improving the test coverage for bcoin",
-            "organization": "bcoin"
+            "project": "Improving the test coverage for bcoin, and updating it to be at par with the latest improvements in Bitcoin core such as bech32m addresses, BIP49, BIP84, pruned node services and other taproot features.",
+            "organization": "bcoin",
+            "mentor": "Matthew Zipkin",
+            "university": "IIIT Hyderabad",
+            "country": "India"
           }
         ]
       },
       "2022": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 2,
+        "num_projects": 7,
         "projects": [
           {
             "name": "Anmol Sharma",
             "project": "Implement branch-and-bound coin selection in bcoin wallet",
-            "organization": "bcoin"
+            "organization": "bcoin",
+            "mentor": "Matthew Zipkin",
+            "university": "PDPM Indian Institute of Information Technology, Design and Manufacturing, Jabalpur",
+            "country": "India"
           },
           {
             "name": "Ayush Anand",
             "project": "Update bcoin networking protocol: pruning and compact blocks, Implement compact block filter service and Neutrino client in bcoin",
-            "organization": "bcoin"
+            "organization": "bcoin",
+            "mentor": "Matthew Zipkin",
+            "university": "Indian Institute of Technology Jodhpur",
+            "country": "India"
+          },
+          {
+            "name": "Jatin Gupta",
+            "project": "Update bcoin RPC API and add tests, Update bcoin networking protocol: pruning and compact blocks, Implement compact block filter service and Neutrino client in bcoin",
+            "organization": "bcoin",
+            "mentor": "Matthew Zipkin",
+            "university": "Indian Institute of Information Technology, Vadodara",
+            "country": "India"
+          },
+          {
+            "name": "Mohammad Warid",
+            "project": "Update bcoin networking protocol: pruning and compact blocks",
+            "organization": "bcoin",
+            "mentor": "Matthew Zipkin",
+            "university": "Delhi Technological University",
+            "country": "India"
+          },
+          {
+            "name": "Pranshu Kumar Agrawal",
+            "project": "Review and test bcoin PR#811 Replace-by-fee, add feature to wallet",
+            "organization": "bcoin",
+            "mentor": "Matthew Zipkin",
+            "university": "Veer Surendra Sai University of Technology",
+            "country": "India"
+          },
+          {
+            "name": "Raj Maheshwari",
+            "project": "Add full Taproot validation to bcoin full node and wallet",
+            "organization": "bcoin",
+            "mentor": "Matthew Zipkins",
+            "university": "IIIT Hyderabad",
+            "country": "India"
+          },
+          {
+            "name": "Shaswat Gupta Gupta",
+            "project": "Use PGP keys to prove an address belongs to you, Use the hash of phone number to uniquely identify a wallet owner, Build advanced bitcoin features on Padawan Wallet, Implement compact block filter service and Neutrino client in bcoin, Access tokens for the REST API",
+            "organization": "bcoin",
+            "mentor": "Matthew Zipkin",
+            "university": "Indian Institute of Information Technology, Design and Manufacturing, Jabalpur",
+            "country": "India"
           }
         ]
       },
       "2023": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
+        "num_projects": 2,
+        "projects": [
+          {
+            "name": "Manav Desai",
+            "project": "Building a neutrino client",
+            "organization": "bcoin",
+            "mentor": "Anmol Sharma, Shaswat Gupta",
+            "university": "Indian Institute of Information Technology Jabalpur",
+            "country": "India"
+          },
+          {
+            "name": "Vasu Maheshwari",
+            "project": "Add support for output script descriptors",
+            "organization": "bcoin",
+            "mentor": "Anmol Sharma, Shaswat Gupta",
+            "university": "Indian Institute of Information Technology, Design and Manufacturing, Jabalpur",
+            "country": "India"
+          }
+        ]
       }
     }
   },
   {
     "name": "braidpool",
-    "url": "https://summerofbitcoin.org",
-    "image_url": "https://github.com/braidpool.png",
+    "url": "https://github.com/AKASHnagesh/braidpool",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to braidpool core by code refactoring, performance optimization and benchmarking. \n\nbraidpool is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A decentralized mining pool using a DAG (braided) structure.",
+    "category": "Mining",
     "topics": [
-      "Infrastructure",
-      "Wallets",
-      "Lightning Network"
+      "Mining",
+      "DAG",
+      "Bitcoin"
     ],
     "technologies": [
-      "C++",
-      "Node.js"
+      "Rust"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      },
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": []
-      },
       "2024": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Jayendra Madaram",
+            "project": "Develop Channel Based Payouts for Braidpool",
+            "organization": "braidpool",
+            "mentor": "Kulpreet",
+            "university": "Neil Gogte Institute of technology",
+            "country": "India"
+          }
+        ]
       },
       "2025": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
+        "num_projects": 6,
         "projects": [
           {
             "name": "Abdullah Azeem",
             "project": "Initial Bead Download (IBD) for Braidpool",
-            "organization": "braidpool"
+            "organization": "braidpool",
+            "mentor": "Bob",
+            "university": "Indian Institute of Technology Roorkee",
+            "country": "India"
           },
           {
-            "name": "Abhishek",
+            "name": "Abhishek .",
             "project": "Braidpool Monitoring Dashboard",
-            "organization": "braidpool"
+            "organization": "braidpool",
+            "mentor": "Bob",
+            "university": "University Institute of Engineering and Technology, Panjab University, Chandigarh",
+            "country": "India"
           },
           {
             "name": "Ansh Sharma",
             "project": "Committed Mempool",
-            "organization": "braidpool"
+            "organization": "braidpool",
+            "mentor": "Bob",
+            "university": "UIET Panjab University",
+            "country": "India"
           },
           {
             "name": "Aritra Majumder",
             "project": "Committed Mempool",
-            "organization": "braidpool"
+            "organization": "braidpool",
+            "mentor": "Bob",
+            "university": "Chennai Mathematical Institute",
+            "country": "India"
           },
           {
             "name": "Mohd Zaid",
-            "project": "Contributions to braidpool",
-            "organization": "braidpool"
+            "project": "Committed Mempool",
+            "organization": "braidpool",
+            "mentor": "Bob",
+            "university": "Guru Gobind Singh Indraprastha University",
+            "country": "India"
+          },
+          {
+            "name": "Priya Rani",
+            "project": "Braidpool Monitoring Dashboard",
+            "organization": "braidpool",
+            "mentor": "Bob",
+            "university": "Galgotias University",
+            "country": "India"
           }
         ]
       }
@@ -2864,113 +3991,144 @@ export const getSobData = () => {
   },
   {
     "name": "gocoin",
-    "url": "https://summerofbitcoin.org",
-    "image_url": "https://github.com/gocoin.png",
+    "url": "https://github.com/AKASHnagesh/gocoin",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to gocoin core by code refactoring, performance optimization and benchmarking. \n\ngocoin is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A Bitcoin full node and wallet implementation in Go.",
+    "category": "Node",
     "topics": [
-      "Infrastructure",
-      "Design",
-      "P2P",
-      "Node"
+      "Bitcoin",
+      "Full Node",
+      "Go"
     ],
     "technologies": [
-      "Go",
-      "Python",
-      "TypeScript"
+      "Go"
     ],
     "years": {
-      "2021": {
+      "2024": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
-      },
-      "2023": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
-      "2025": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 5,
-        "projects": []
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Nithish Karthik Shanmugasundaram",
+            "project": "Make Gocoin wallet remotely controllable from client's Web UI",
+            "organization": "gocoin",
+            "mentor": "Piotr",
+            "university": "Indian Institute of Technology, Varanasi (IIT BHU)",
+            "country": "India"
+          }
+        ]
       }
     }
   },
   {
     "name": "lampo",
-    "url": "https://summerofbitcoin.org",
-    "image_url": "https://github.com/lampo.png",
+    "url": "https://github.com/AKASHnagesh/lampo",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to lampo core by code refactoring, performance optimization and benchmarking. \n\nlampo is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A Lightning node implementation focused on experimentation and extensibility.",
+    "category": "Lightning",
     "topics": [
-      "Bitcoin",
-      "Wallets",
-      "Infrastructure",
-      "Node"
+      "Lightning Network",
+      "Node",
+      "Experimental"
     ],
     "technologies": [
-      "Rust",
-      "TypeScript",
-      "C++",
-      "Go"
+      "Rust"
     ],
     "years": {
-      "2021": {
+      "2024": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 2,
-        "projects": []
+        "projects": [
+          {
+            "name": "Harshit Verma",
+            "project": "RGB support with an experimental version of lampo #191",
+            "organization": "lampo",
+            "mentor": "Vincenzo",
+            "university": "Delhi Technological University",
+            "country": "India"
+          },
+          {
+            "name": "Vanshul Bhatia",
+            "project": "Implementing a PoC for VLS signer",
+            "organization": "lampo",
+            "mentor": "Vincenzo",
+            "university": "Shri G. S. Institute of Technology and Science (SGSITS) Indore",
+            "country": "India"
+          }
+        ]
+      },
+      "2025": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Mintu Gogoi",
+            "project": "Lampo: Tests, PoC and clap-cli",
+            "organization": "lampo",
+            "mentor": "Vincenzo Palazzo",
+            "university": "IIT-BHU(Varanasi)",
+            "country": "India"
+          }
+        ]
       }
     }
   },
   {
     "name": "libbitcoin",
-    "url": "https://github.com/libbitcoin",
-    "image_url": "https://github.com/libbitcoin.png",
+    "url": "https://github.com/AKASHnagesh/libbitcoin",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to libbitcoin core by code refactoring, performance optimization and benchmarking. \n\nlibbitcoin is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A collection of cross-platform C++ libraries for building Bitcoin applications.",
+    "category": "Library",
     "topics": [
-      "P2P",
-      "Design",
-      "Wallets"
+      "Bitcoin",
+      "Library",
+      "C++"
     ],
     "technologies": [
-      "Rust",
-      "Python",
-      "JavaScript"
+      "C++"
     ],
     "years": {
-      "2025": {
+      "2024": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": []
+        "num_projects": 2,
+        "projects": [
+          {
+            "name": "Shashank Shekhar Singh",
+            "project": "SQLite Database for libbitcoin",
+            "organization": "libbitcoin",
+            "mentor": "Kulpreet",
+            "university": "IIT BHU(Varanasi)",
+            "country": "India"
+          },
+          {
+            "name": "Tanay Raikhere",
+            "project": "SQLite Database for libbitcoin",
+            "organization": "libbitcoin",
+            "mentor": "Kulpreet",
+            "university": "Shri G.S Institute of Technology and Science, 23 Sir M Visvesvaraya Marg, Indore (M.P), India",
+            "country": "India"
+          }
+        ]
       }
     }
   },
   {
     "name": "libsecp256k1",
     "url": "https://github.com/bitcoin-core/secp256k1",
-    "image_url": "https://github.com/libsecp256k1.png",
+    "image_url": "https://avatars.githubusercontent.com/u/528860",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to libsecp256k1 core by code refactoring, performance optimization and benchmarking. \n\nlibsecp256k1 is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "An optimized C library for ECDSA signatures and secret/public key operations on the secp256k1 curve.",
+    "category": "Cryptography",
     "topics": [
-      "P2P",
-      "Bitcoin",
-      "Wallets",
-      "Nostr"
+      "Cryptography",
+      "ECDSA",
+      "Bitcoin"
     ],
     "technologies": [
-      "TypeScript",
-      "React"
+      "C"
     ],
     "years": {
       "2021": {
@@ -2979,8 +4137,11 @@ export const getSobData = () => {
         "projects": [
           {
             "name": "D Sivaram",
-            "project": "Improvements to test coverage for the chacha20 streamcipher and SchnorrSig implementation in bitcoin core. Work on human-readable error messages and CSV benchmark outputs for the secp256k1 library",
-            "organization": "libsecp256k1"
+            "project": "Improvements to test coverage for the chacha20 streamcipher and SchnorrSig implementation in bitcoin core. Work on human-readable error messages and CSV benchmark outputs for the secp256k1 library used by Bitcoin core.",
+            "organization": "libsecp256k1",
+            "mentor": "Jesse Posner",
+            "university": "IIT Kharagpur",
+            "country": "India"
           }
         ]
       },
@@ -2990,57 +4151,46 @@ export const getSobData = () => {
         "projects": [
           {
             "name": "Sivaram Dhakshinamoorthy",
-            "project": "Contributions to libsecp256k1",
-            "organization": "libsecp256k1"
+            "project": "Batch Verification Interface in libsecp256k1",
+            "organization": "libsecp256k1",
+            "mentor": "Jonas Nick",
+            "university": "Indian Institute of Technology, Kharagpur",
+            "country": "India"
           }
         ]
       },
-      "2024": {
+      "2023": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Zhe Pang",
+            "project": "BIP 340 Adaptor Signatures Module for libsecp256k1-zkp",
+            "organization": "libsecp256k1",
+            "mentor": "Jonas Nick, Sivaram",
+            "university": "Columbia University",
+            "country": "United States"
+          }
+        ]
       }
     }
   },
   {
     "name": "lnprototest",
-    "url": "https://github.com/rustyrussell/lnprototest",
-    "image_url": "https://github.com/lnprototest.png",
+    "url": "https://github.com/AKASHnagesh/lnprototest",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to lnprototest core by code refactoring, performance optimization and benchmarking. \n\nlnprototest is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "A test framework for the Lightning Network protocol.",
+    "category": "Testing",
     "topics": [
-      "Infrastructure",
       "Lightning Network",
-      "Nostr",
-      "Cryptography"
+      "Testing",
+      "Protocol"
     ],
     "technologies": [
-      "Python",
-      "Go",
-      "Node.js"
+      "Python"
     ],
     "years": {
-      "2021": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 4,
-        "projects": []
-      },
-      "2022": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 1,
-        "projects": []
-      },
-      "2023": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
-      "2024": {
-        "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
-      },
       "2025": {
         "projects_url": "https://summerofbitcoin.org",
         "num_projects": 1,
@@ -3048,7 +4198,42 @@ export const getSobData = () => {
           {
             "name": "Aryan Jain",
             "project": "LNprototest Message Flow Visualizer",
-            "organization": "lnprototest"
+            "organization": "lnprototest",
+            "mentor": "-",
+            "university": "gyan ganga institute of technology and sciences",
+            "country": "India"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "node-lightning",
+    "url": "https://github.com/AKASHnagesh/node-lightning",
+    "image_url": "https://github.com/AKASHnagesh.png",
+    "image_background_color": "#ffffff",
+    "description": "A Node.js implementation of the Lightning Network.",
+    "category": "Lightning",
+    "topics": [
+      "Lightning Network",
+      "Node.js"
+    ],
+    "technologies": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "years": {
+      "2021": {
+        "projects_url": "https://summerofbitcoin.org",
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Vibhav Sharma",
+            "project": "Node.js implementation of LN.",
+            "organization": "node-lightning",
+            "mentor": "Brian Mancini",
+            "university": "Bennett University",
+            "country": "India"
           }
         ]
       }
@@ -3056,29 +4241,35 @@ export const getSobData = () => {
   },
   {
     "name": "python-bitcoin-utils",
-    "url": "https://github.com/karask/python-bitcoin-utils",
-    "image_url": "https://github.com/pythonbitcoinutils.png",
+    "url": "https://github.com/AKASHnagesh/python-bitcoin-utils",
+    "image_url": "https://github.com/AKASHnagesh.png",
     "image_background_color": "#ffffff",
-    "description": "Contributor / Improvements to python-bitcoin-utils core by code refactoring, performance optimization and benchmarking. \n\npython-bitcoin-utils is an open-source project participating in Summer of Bitcoin.",
-    "category": "Cryptocurrency",
+    "description": "Python utilities for working with Bitcoin transactions and scripting.",
+    "category": "Library",
     "topics": [
-      "Cryptography",
-      "Lightning Network",
-      "P2P",
-      "Bitcoin"
+      "Bitcoin",
+      "Python",
+      "Utilities"
     ],
     "technologies": [
-      "Node.js",
-      "Go",
       "Python"
     ],
     "years": {
-      "2021": {
+      "2024": {
         "projects_url": "https://summerofbitcoin.org",
-        "num_projects": 3,
-        "projects": []
+        "num_projects": 1,
+        "projects": [
+          {
+            "name": "Mukund Gupta",
+            "project": "Bitcoin Block Parser",
+            "organization": "python-bitcoin-utils",
+            "mentor": "Kostas",
+            "university": "Indian Institute of Technology, Jodhpur",
+            "country": "India"
+          }
+        ]
       }
     }
   }
 ];
-}
+};
