@@ -111,7 +111,7 @@ export const getSobData = () => {
   },
   {
     "name": "Ark",
-    "url": "https://github.com/ark-network",
+    "url": "https://github.com/ArkEcosystem",
     "image_url": "https://github.com/ark.png",
     "image_background_color": "#ffffff",
     "description": "Contributor / Improvements to Ark core by code refactoring, performance optimization and benchmarking. \n\nArk is an open-source project participating in Summer of Bitcoin.",
