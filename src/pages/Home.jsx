@@ -1,8 +1,7 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Box, Typography, TextField, InputAdornment, Grid, IconButton } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import MenuIcon from '@mui/icons-material/Menu';
-import { motion, AnimatePresence } from 'framer-motion';
 import { getSobData } from '../data';
 import Sidebar from '../components/Sidebar';
 import OrgCard from '../components/OrgCard';
@@ -21,6 +20,10 @@ const useArrayStats = (orgs, key) => {
 };
 
 const Home = () => {
+    useEffect(() => {
+        document.title = 'Home | SoB Organizations';
+    }, []);
+
     const allOrgs = getSobData();
 
     const allTech = useArrayStats(allOrgs, 'technologies');
@@ -168,13 +171,11 @@ const Home = () => {
 
                     {/* Grid */}
                     <Grid container spacing={3}>
-                        <AnimatePresence>
-                            {filteredOrgs.map((org, idx) => (
-                                <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }} key={org.name}>
-                                    <OrgCard data={org} index={idx} />
-                                </Grid>
-                            ))}
-                        </AnimatePresence>
+                        {filteredOrgs.map((org, idx) => (
+                            <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }} key={org.name}>
+                                <OrgCard data={org} index={idx} />
+                            </Grid>
+                        ))}
                     </Grid>
 
                     {filteredOrgs.length === 0 && (

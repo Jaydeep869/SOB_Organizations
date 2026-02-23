@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
 import { Box, Typography, Button, Paper, Chip, Grid, Container } from '@mui/material';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
@@ -20,6 +19,12 @@ const OrgDetail = () => {
     const { orgSlug } = useParams();
     const orgData = getSobData();
     const organization = orgData.find(org => slugify(org.name) === orgSlug);
+
+    useEffect(() => {
+        document.title = organization
+            ? `${organization.name} | SoB Organizations`
+            : 'Not Found | SoB Organizations';
+    }, [organization]);
 
     if (!organization) {
         return (
@@ -50,9 +55,15 @@ const OrgDetail = () => {
                 borderBottom: '1px solid', borderColor: 'divider'
             }}>
                 <Container maxWidth="lg" sx={{ height: 64, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                    <Button component={Link} to="/" startIcon={<ArrowBackIcon fontSize="small" />} sx={{ color: 'text.secondary', fontWeight: 600, '&:hover': { color: 'text.primary', bgcolor: 'transparent' } }}>
-                        Back to Organizations
-                    </Button>
+                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
+                        <Button component={Link} to="/" startIcon={<ArrowBackIcon fontSize="small" />} sx={{ color: 'text.secondary', fontWeight: 600, '&:hover': { color: 'text.primary', bgcolor: 'transparent' }, minWidth: 'auto' }}>
+                            Home
+                        </Button>
+                        <Typography variant="body2" sx={{ color: 'text.disabled', mx: 0.5, fontWeight: 500 }}>›</Typography>
+                        <Typography variant="body2" sx={{ color: 'text.primary', fontWeight: 700 }}>
+                            {organization.name}
+                        </Typography>
+                    </Box>
                     {organization.url && !organization.url.includes('summerofbitcoin.org') && (
                         <Button
                             href={organization.url}
@@ -67,7 +78,7 @@ const OrgDetail = () => {
                 </Container>
             </Box>
 
-            <Container maxWidth="lg" component={motion.div} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.35, ease: [0.4, 0, 0.2, 1] }} sx={{ pt: 6 }}>
+            <Container maxWidth="lg" sx={{ pt: 6 }}>
 
                 {/* Main Info Card */}
                 <Paper elevation={0} sx={{ borderRadius: 6, border: '1px solid', borderColor: 'divider', overflow: 'hidden', mb: 4, boxShadow: '0 4px 24px rgba(0,0,0,0.04)' }}>
@@ -184,7 +195,7 @@ const OrgDetail = () => {
                                                     fill="#f59e0b"
                                                     radius={[6, 6, 0, 0]}
                                                     maxBarSize={60}
-                                                    animationDuration={1500}
+                                                    animationDuration={600}
                                                 >
                                                     <LabelList dataKey="projects" position="top" style={{ fontSize: 13, fontWeight: 700, fill: '#52525b' }} />
                                                 </Bar>
@@ -215,7 +226,7 @@ const OrgDetail = () => {
                                         elevation={0}
                                         sx={{
                                             border: '1px solid', borderColor: 'divider', borderRadius: 4,
-                                            overflow: 'hidden', transition: 'border-color 0.2s',
+                                            overflow: 'hidden', transition: 'border-color 0.12s ease',
                                             '&:hover': { borderColor: 'primary.main' }
                                         }}
                                     >

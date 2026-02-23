@@ -2,11 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, CardActionArea, CardContent, Typography, Box, Chip, IconButton } from '@mui/material';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-import { motion } from 'framer-motion';
 import sobLogo from '../assets/images/sob-logo.png';
 import { slugify } from '../utils/slugify';
-
-const MotionCard = motion.create(Card);
 
 const OrgCard = ({ data, index }) => {
     const years = Object.keys(data.years).sort().reverse();
@@ -14,21 +11,18 @@ const OrgCard = ({ data, index }) => {
     const extraTech = data.technologies.length > 4 ? data.technologies.length - 4 : 0;
 
     return (
-        <MotionCard
-            initial={{ opacity: 0, scale: 0.97 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.25, ease: 'easeOut' }}
+        <Card
             sx={{
                 width: '100%',
                 height: '100%',
                 display: 'flex',
                 flexDirection: 'column',
                 position: 'relative',
-                transition: 'transform 0.25s cubic-bezier(0.4,0,0.2,1), box-shadow 0.25s cubic-bezier(0.4,0,0.2,1), border-color 0.25s cubic-bezier(0.4,0,0.2,1)',
+                transition: 'transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease',
                 '&:hover': {
-                    transform: 'translateY(-4px)',
+                    transform: 'translateY(-2px)',
                     borderColor: 'primary.main',
-                    boxShadow: '0 12px 28px -8px rgba(245, 158, 11, 0.22)',
+                    boxShadow: '0 8px 20px -6px rgba(245, 158, 11, 0.18)',
                 }
             }}
         >
@@ -102,7 +96,7 @@ const OrgCard = ({ data, index }) => {
                             objectFit: 'contain',
                             position: 'relative',
                             zIndex: 1,
-                            transition: 'transform 0.35s cubic-bezier(0.4,0,0.2,1)',
+                            transition: 'transform 0.2s ease',
                         }}
                     />
                 </Box>
@@ -162,7 +156,7 @@ const OrgCard = ({ data, index }) => {
                     </Box>
                 </CardContent>
             </CardActionArea>
-        </MotionCard>
+        </Card>
     );
 };
 
