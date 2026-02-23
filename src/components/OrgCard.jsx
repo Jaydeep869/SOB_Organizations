@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Card, CardActionArea, CardContent, Typography, Box, Chip, IconButton } from '@mui/material';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import sobLogo from '../assets/images/sob-logo.png';
@@ -18,11 +17,10 @@ const OrgCard = ({ data, index }) => {
                 display: 'flex',
                 flexDirection: 'column',
                 position: 'relative',
-                transition: 'transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease',
+                transition: 'transform 0.15s ease, box-shadow 0.15s ease',
                 '&:hover': {
                     transform: 'translateY(-2px)',
-                    borderColor: 'primary.main',
-                    boxShadow: '0 8px 20px -6px rgba(245, 158, 11, 0.18)',
+                    boxShadow: '0 8px 24px -4px rgba(0, 0, 0, 0.12)',
                 }
             }}
         >
@@ -51,8 +49,10 @@ const OrgCard = ({ data, index }) => {
             )}
 
             <CardActionArea
-                component={Link}
-                to={`/org/${slugify(data.name)}`}
+                component="a"
+                href={`/org/${slugify(data.name)}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', alignItems: 'stretch', justifyContent: 'flex-start' }}
             >
                 {/* Logo Banner Area */}

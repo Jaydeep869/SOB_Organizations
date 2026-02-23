@@ -57,14 +57,9 @@ const Sidebar = ({
                             objectFit: 'contain',
                         }}
                     />
-                    <Box>
-                        <Typography variant="subtitle2" sx={{ fontWeight: 800, color: '#d97706', lineHeight: 1.2, letterSpacing: '-0.01em', fontSize: '14px' }}>
-                            SoB Organizations
-                        </Typography>
-                        <Typography variant="caption" sx={{ color: 'text.disabled', fontSize: '10px', fontWeight: 500 }}>
-                            Summer of Bitcoin
-                        </Typography>
-                    </Box>
+                    <Typography variant="subtitle2" sx={{ fontWeight: 800, color: '#d97706', lineHeight: 1.3, letterSpacing: '-0.01em', fontSize: '14px' }}>
+                        SoB Organizations
+                    </Typography>
                 </Link>
 
                 {/* Close button — mobile only */}

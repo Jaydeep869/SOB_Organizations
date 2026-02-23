@@ -55,7 +55,7 @@ const theme = createTheme({
                     borderRadius: 8,
                     boxShadow: 'none',
                     '&:hover': {
-                        boxShadow: '0 4px 12px rgba(245, 158, 11, 0.2)', // brand shadow on hover
+                        boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
                     },
                 },
             },
@@ -64,9 +64,9 @@ const theme = createTheme({
             styleOverrides: {
                 root: {
                     border: '1px solid #f0f0f5',
-                    boxShadow: '0 2px 10px -3px rgba(6, 81, 237, 0.05)',
+                    boxShadow: '0 2px 10px -3px rgba(0, 0, 0, 0.06)',
                     borderRadius: 16,
-                    transition: 'transform 0.25s cubic-bezier(0.4,0,0.2,1), box-shadow 0.25s cubic-bezier(0.4,0,0.2,1), border-color 0.25s cubic-bezier(0.4,0,0.2,1)',
+                    transition: 'transform 0.15s ease, box-shadow 0.15s ease',
                 },
             },
         },
